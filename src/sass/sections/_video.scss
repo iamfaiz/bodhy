@@ -1,0 +1,9 @@
+.section.video {
+    height: auto;
+    padding: 20px 0;
+    background-color: $dark-gray;
+
+    .video-thumbnail {
+        max-width: 100%;
+    }
+}

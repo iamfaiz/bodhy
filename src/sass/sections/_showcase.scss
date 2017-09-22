@@ -1,0 +1,48 @@
+.section.showcase {
+    padding: 30px 0;
+    background: $light-gray;
+
+    .showcase-title {
+        text-align: center;
+        font-size: 4em;
+        font-weight: bold;
+        color: $red;
+        text-transform: uppercase;
+
+        span {
+            font-weight: 300;
+            font-size: 1em !important;
+        }
+    }
+
+    .showcase-subtitle {
+        color: $dark-gray;
+        font-size: 1.4em;
+        text-align: center;
+        color: darken($dark-gray, 20%);
+    }
+
+    .showcase-description {
+        margin-top: 30px;
+        font-size: 1.5em;
+        color: $dark-gray;
+    }
+
+    .showcase-price {
+        margin-top: 70px;
+        font-size: 1.5em;
+        color: darken($dark-gray, 20%);
+    }
+
+    .buy-now {
+        color: $dark-gray;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+
+    .conclusive-title {
+        margin-top: 20px;
+        text-align: center;
+        color: $red;
+    }
+}

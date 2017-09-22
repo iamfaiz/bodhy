@@ -54,3 +54,44 @@
       letter-spacing: .2em;
       font-size: .8em;
       color: #A7A6A6; }
+
+.section.video {
+  height: auto;
+  padding: 20px 0;
+  background-color: #A7A6A6; }
+  .section.video .video-thumbnail {
+    max-width: 100%; }
+
+.section.showcase {
+  padding: 30px 0;
+  background: #eee; }
+  .section.showcase .showcase-title {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    color: #9B3535;
+    text-transform: uppercase; }
+    .section.showcase .showcase-title span {
+      font-weight: 300;
+      font-size: 1em !important; }
+  .section.showcase .showcase-subtitle {
+    color: #A7A6A6;
+    font-size: 1.4em;
+    text-align: center;
+    color: #747373; }
+  .section.showcase .showcase-description {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #A7A6A6; }
+  .section.showcase .showcase-price {
+    margin-top: 70px;
+    font-size: 1.5em;
+    color: #747373; }
+  .section.showcase .buy-now {
+    color: #A7A6A6;
+    text-transform: uppercase;
+    margin-top: 20px; }
+  .section.showcase .conclusive-title {
+    margin-top: 20px;
+    text-align: center;
+    color: #9B3535; }
