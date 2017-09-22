@@ -1,6 +1,10 @@
 @import url("//fonts.googleapis.com/css?family=Oswald");
 @import url("https://fonts.googleapis.com/css?family=Lato:900");
 @font-face {
+  font-family: CormorantRegular;
+  src: url(/fonts/comorant/Cormorant-Regular.otf); }
+
+@font-face {
   font-family: CormorantInfantRegular;
   src: url(/fonts/comorant/CormorantInfant-Regular.otf); }
 
@@ -106,7 +110,7 @@ img {
     width: 100%; }
 
 .section.showcase {
-  background: #ffff; }
+  background: white; }
   .section.showcase .showcase-titles-container {
     position: relative;
     left: -115px; }
@@ -155,7 +159,7 @@ img {
     font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif; }
 
 .section.reviews {
-  background-color: #ffff;
+  background-color: white;
   padding-top: 35px; }
   .section.reviews .reviews-aside {
     text-align: right; }
@@ -275,3 +279,55 @@ img {
       font-size: 14.01px; }
     .section.reviews .buying-info p {
       text-align: center; }
+
+.section.about {
+  overflow: hidden;
+  background-color: #5b5b5b;
+  background-size: cover;
+  color: white; }
+  .section.about .about-content {
+    float: right;
+    padding-right: 20px; }
+    .section.about .about-content .about-headings-group {
+      float: right;
+      text-align: center;
+      display: inline-block; }
+      .section.about .about-content .about-headings-group .about-intro-title {
+        display: inline-block; }
+    .section.about .about-content .about-intro-title {
+      font-family: LeagueSpartanBold, sans-serif;
+      border-bottom: 1px solid white;
+      font-size: 18px;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 15px 45px;
+      text-align: center; }
+    .section.about .about-content .about-name {
+      font-family: CormorantRegular, sans-serif;
+      font-size: 40px;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+      text-align: center; }
+    .section.about .about-content .about-title {
+      font-family: CormorantRegular, sans-serif;
+      font-size: 14px;
+      letter-spacing: 0.29em;
+      text-transform: uppercase;
+      background-image: url(/img/red-ribbon.png);
+      background-repeat: no-repeat;
+      background-position: 0 10px;
+      padding: 18px 105px;
+      text-align: center; }
+    .section.about .about-content .about-description {
+      font-family: CormorantRegular, sans-serif;
+      color: white;
+      font-size: 24px;
+      text-align: right;
+      line-height: 34px; }
+    .section.about .about-content .about-description-inspiration {
+      font-family: CormorantRegular, sans-serif;
+      color: white;
+      font-size: 14px;
+      text-align: right;
+      line-height: 34px; }

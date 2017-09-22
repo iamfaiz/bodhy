@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:900');
 
 @font-face {
+    font-family: CormorantRegular;
+    src: url(/fonts/comorant/Cormorant-Regular.otf);
+}
+
+@font-face {
     font-family: CormorantInfantRegular;
     src: url(/fonts/comorant/CormorantInfant-Regular.otf);
 }
@@ -35,3 +40,4 @@
 @import './sections/video';
 @import './sections/showcase';
 @import './sections/reviews';
+@import './sections/about';

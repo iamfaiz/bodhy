@@ -1,0 +1,70 @@
+.section.about {
+    // height: 900px;
+    overflow: hidden;
+    background-color: $dark-gray;
+    background-size: cover;
+    color: white;
+
+
+    .about-content {
+        float: right;
+        padding-right: 20px;
+
+        .about-headings-group {
+            float: right;
+            text-align: center;
+            display: inline-block;
+
+            .about-intro-title {
+                display: inline-block;
+            }
+        }
+
+        .about-intro-title {
+            font-family: $league-spartan-stack;
+            border-bottom: 1px solid $light-gray;
+            font-size: 18px;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 15px 45px;
+            text-align: center;
+        }
+
+        .about-name {
+            font-family: $cormorant-regular-stack;
+            font-size: 40px;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;  
+            text-align: center; 
+        }
+
+        .about-title {
+            font-family: $cormorant-regular-stack;
+            font-size: 14px;
+            letter-spacing: 0.29em;
+            text-transform: uppercase;
+            background-image: url(/img/red-ribbon.png);
+            background-repeat: no-repeat;
+            background-position: 0 10px;
+            padding: 18px 105px;
+            text-align: center;
+        }
+       
+        .about-description {
+            font-family: $cormorant-regular-stack;
+            color: $light-gray;
+            font-size: 24px;
+            text-align: right;
+            line-height: 34px;
+        }
+
+        .about-description-inspiration {
+            font-family: $cormorant-regular-stack;
+            color: $light-gray;
+            font-size: 14px;
+            text-align: right;
+            line-height: 34px;
+        }
+    }
+}
