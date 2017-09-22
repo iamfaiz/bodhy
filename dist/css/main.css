@@ -1,75 +1,91 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
+@import url("//fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Lato:900");
+@font-face {
+  font-family: CormorantInfantRegular;
+  src: url(/fonts/comorant/CormorantInfant-Regular.otf); }
+
+@font-face {
+  font-family: CormorantGaramondRegular;
+  src: url(/fonts/comorant/CormorantGaramond-Regular.otf); }
+
 a {
-  color: #A7A6A6;
+  color: #5b5b5b;
   padding-bottom: 1px;
-  border-bottom: 1px solid #9B3535; }
+  border-bottom: 1px solid #b51110; }
   a:hover {
-    color: #A7A6A6;
+    color: #5b5b5b;
     text-decoration: none; }
 
 .section {
   padding: 30px; }
 
 .header {
-  background: #eee;
+  background: white;
   overflow: hidden;
   text-align: center; }
   .header .header-description {
-    font-size: .7em;
+    font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: .2em;
-    text-align: center; }
+    letter-spacing: 0.22em;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    color: #5b5b5b; }
   .header .nav {
     text-align: center;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 1.6em; }
+    font-family: CormorantInfantRegular, sans-serif;
+    font-size: 24px; }
     .header .nav .nav-links {
       margin: 0 auto;
       list-style: none;
       display: flex; }
       .header .nav .nav-links li a {
-        color: #9B3535;
+        color: #b51110;
         padding: 0 20px;
         border-bottom: none; }
       .header .nav .nav-links li:after {
         content: '|';
-        color: #9B3535; }
+        color: #b51110; }
       .header .nav .nav-links li:last-of-type:after {
         content: ''; }
   .header .logo-review-row {
-    margin-top: 50px;
-    margin-bottom: 50px; }
+    margin: 70px 0; }
   .header .reader-review {
-    padding: 20px 0;
-    background-color: white; }
+    padding: 20px 0; }
     .header .reader-review .reader-review-heading {
-      color: #9B3535;
-      border-bottom: 1px solid #9B3535;
+      color: #b51110;
+      border-bottom: 1px solid #b51110;
       display: inline-block;
       padding: 5px 20px;
       margin-bottom: 20px;
       text-transform: uppercase;
-      font-weight: bold;
-      letter-spacing: .2em;
-      font-size: .9em; }
+      letter-spacing: 0.22em;
+      font-size: 14px;
+      font-family: Oswald, sans-serif; }
     .header .reader-review .reader-review-comment {
-      font-family: Georgia, "Times New Roman", Times, serif;
-      font-size: 1.3em;
+      font-family: CormorantGaramondRegular, sans-serif;
+      font-size: 22px;
       margin-bottom: 0; }
     .header .reader-review .reader-review-author {
       text-transform: uppercase;
-      letter-spacing: .2em;
-      font-size: .9em; }
+      letter-spacing: 0.18em;
+      font-size: .9em;
+      font-family: Lato, sans-serif;
+      font-weight: 900;
+      color: #b51110;
+      margin-bottom: 0;
+      margin-top: 10px; }
     .header .reader-review .reader-review-author-title {
+      font-family: Lato, sans-serif;
+      font-weight: 900;
       text-transform: uppercase;
       letter-spacing: .2em;
-      font-size: .8em;
-      color: #A7A6A6; }
+      font-size: 11px;
+      color: #5b5b5b; }
 
 .section.video {
   height: auto;
   padding: 20px 0;
-  background-color: #A7A6A6; }
+  background-color: #5b5b5b; }
   .section.video .video-thumbnail {
     max-width: 100%; }
 
@@ -79,32 +95,32 @@ a {
     text-align: center;
     font-size: 4em;
     font-weight: bold;
-    color: #9B3535;
+    color: #b51110;
     text-transform: uppercase; }
     .section.showcase .showcase-title span {
       font-weight: 300;
       font-size: 1em !important; }
   .section.showcase .showcase-subtitle {
-    color: #A7A6A6;
+    color: #5b5b5b;
     font-size: 1.4em;
     text-align: center;
-    color: #747373; }
+    color: #282828; }
   .section.showcase .showcase-description {
     margin-top: 30px;
     font-size: 1.5em;
-    color: #A7A6A6; }
+    color: #5b5b5b; }
   .section.showcase .showcase-price {
     margin-top: 70px;
     font-size: 1.5em;
-    color: #747373; }
+    color: #282828; }
   .section.showcase .buy-now {
-    color: #A7A6A6;
+    color: #5b5b5b;
     text-transform: uppercase;
     margin-top: 20px; }
   .section.showcase .conclusive-title {
     margin-top: 20px;
     text-align: center;
-    color: #9B3535; }
+    color: #b51110; }
 
 .section.reviews {
   background-color: #eee; }
@@ -112,23 +128,23 @@ a {
     text-align: right; }
     .section.reviews .reviews-aside .reviews-aside-title {
       text-transform: uppercase;
-      color: #9B3535; }
+      color: #b51110; }
     .section.reviews .reviews-aside .reviews-aside-subtitle {
-      color: #A7A6A6; }
+      color: #5b5b5b; }
     .section.reviews .reviews-aside .reviews-aside-note {
-      color: #9B3535;
+      color: #b51110;
       font-weight: bold;
       text-transform: uppercase;
       font-size: .9em; }
   .section.reviews .reviews-main .reviews-main-title {
     text-align: center;
-    color: #A7A6A6;
+    color: #5b5b5b;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 3.1em; }
   .section.reviews .reviews-main .reviews-main-subtitle {
     text-align: center;
-    color: #747373;
+    color: #282828;
     font-size: 1.2em;
     margin-bottom: 30px; }
   .section.reviews .buying-info p {
