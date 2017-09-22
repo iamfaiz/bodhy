@@ -11,6 +11,15 @@
     src: url(/fonts/comorant/CormorantGaramond-Regular.otf);
 }
 
+@font-face {
+    font-family: LeagueSpartanBold;
+    src: url(/fonts/league-spartan/LeagueSpartan-Bold.otf);
+}
+
+@font-face {
+    font-family: CreteRoundRegular;
+    src: url(/fonts/crete-round/CreteRound-Regular.otf);
+}
 
 @import './variables';
 @import './globals';

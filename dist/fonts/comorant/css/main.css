@@ -100,52 +100,38 @@ a {
 
 .section.showcase {
   background: #eee; }
-  .section.showcase .showcase-titles-container {
-    position: relative;
-    left: -115px; }
-  .section.showcase .showcase-descriptions-container {
-    position: relative;
-    left: -50px;
-    margin-top: 50px; }
   .section.showcase .showcase-title {
     text-align: center;
-    font-size: 73.99px;
+    font-size: 73.99 px;
+    font-weight: bold;
     color: #5b5b5b;
     text-transform: uppercase;
     font-family: LeagueSpartanBold, sans-serif;
-    letter-spacing: -0.02em;
-    margin-bottom: 0; }
+    letter-spacing: -0.02em; }
     .section.showcase .showcase-title span {
       font-weight: 300;
       font-size: 1em !important; }
   .section.showcase .showcase-subtitle {
     color: #5b5b5b;
-    font-size: 24px;
+    font-size: 1.4em;
     text-align: center;
-    font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif; }
+    color: #282828; }
   .section.showcase .showcase-description {
-    font-size: 24px;
-    color: #5b5b5b;
-    font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif;
-    letter-spacing: 0.034em; }
-  .section.showcase .showcase-price {
-    margin-top: 60px;
-    font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif;
-    font-size: 34px;
+    margin-top: 30px;
+    font-size: 1.5em;
     color: #5b5b5b; }
+  .section.showcase .showcase-price {
+    margin-top: 70px;
+    font-size: 1.5em;
+    color: #282828; }
   .section.showcase .buy-now {
     color: #5b5b5b;
     text-transform: uppercase;
-    margin-top: 10px;
-    font-family: Lato, sans-serif;
-    font-size: 14px;
-    margin-left: 8px; }
+    margin-top: 20px; }
   .section.showcase .conclusive-title {
-    margin-top: 55px;
+    margin-top: 20px;
     text-align: center;
-    color: #5b5b5b;
-    font-size: 28px;
-    font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif; }
+    color: #b51110; }
 
 .section.reviews {
   background-color: #eee; }

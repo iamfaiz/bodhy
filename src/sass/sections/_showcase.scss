@@ -1,12 +1,25 @@
 .section.showcase {
     background: $light-gray;
 
+    .showcase-titles-container {
+        position: relative;
+        left: -115px;
+    }
+
+    .showcase-descriptions-container {
+        position: relative;
+        left: -50px;
+        margin-top: 50px;
+    }
+
     .showcase-title {
         text-align: center;
-        font-size: 4em;
-        font-weight: bold;
-        color: $red;
+        font-size: 73.99px;
+        color: $dark-gray;
         text-transform: uppercase;
+        font-family: $league-spartan-stack;
+        letter-spacing: -0.02em;
+        margin-bottom: 0;
 
         span {
             font-weight: 300;
@@ -16,32 +29,39 @@
 
     .showcase-subtitle {
         color: $dark-gray;
-        font-size: 1.4em;
+        font-size: 24px;
         text-align: center;
-        color: darken($dark-gray, 20%);
+        font-family: $crete-round-stack;
     }
 
     .showcase-description {
-        margin-top: 30px;
-        font-size: 1.5em;
+        font-size: 24px;
         color: $dark-gray;
+        font-family: $crete-round-stack;
+        letter-spacing: 0.034em;
     }
 
     .showcase-price {
-        margin-top: 70px;
-        font-size: 1.5em;
-        color: darken($dark-gray, 20%);
+        margin-top: 60px;
+        font-family: $crete-round-stack;
+        font-size: 34px;
+        color: $dark-gray;
     }
 
     .buy-now {
         color: $dark-gray;
         text-transform: uppercase;
-        margin-top: 20px;
+        margin-top: 10px;
+        font-family: $lato-black-stack;
+        font-size: 14px;
+        margin-left: 8px;
     }
 
     .conclusive-title {
-        margin-top: 20px;
+        margin-top: 55px;
         text-align: center;
-        color: $red;
+        color: $dark-gray;
+        font-size: 28px;
+        font-family: $crete-round-stack;
     }
 }
