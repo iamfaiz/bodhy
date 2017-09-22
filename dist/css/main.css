@@ -1,7 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
+a {
+  color: #A7A6A6;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #9B3535; }
+  a:hover {
+    color: #A7A6A6;
+    text-decoration: none; }
+
+.section {
+  padding: 30px; }
+
 .header {
   background: #eee;
-  padding-top: 30px;
   overflow: hidden;
   text-align: center; }
   .header .header-description {
@@ -63,7 +73,6 @@
     max-width: 100%; }
 
 .section.showcase {
-  padding: 30px 0;
   background: #eee; }
   .section.showcase .showcase-title {
     text-align: center;
@@ -95,3 +104,18 @@
     margin-top: 20px;
     text-align: center;
     color: #9B3535; }
+
+.section.reviews {
+  background-color: #eee; }
+  .section.reviews .reviews-aside {
+    text-align: right; }
+    .section.reviews .reviews-aside .reviews-aside-title {
+      text-transform: uppercase;
+      color: #9B3535; }
+    .section.reviews .reviews-aside .reviews-aside-subtitle {
+      color: #A7A6A6; }
+    .section.reviews .reviews-aside .reviews-aside-note {
+      color: #9B3535;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: .9em; }

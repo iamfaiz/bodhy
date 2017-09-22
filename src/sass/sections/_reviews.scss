@@ -1,0 +1,24 @@
+.section.reviews {
+    background-color: $light-gray;
+
+    .reviews-aside {
+        text-align: right;
+
+        .reviews-aside-title {
+            text-transform: uppercase;
+            color: $red;
+        }
+
+        .reviews-aside-subtitle {
+            color: $dark-gray;
+        }
+
+        .reviews-aside-note {
+            color: $red;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: .9em;
+        }
+
+    }
+}

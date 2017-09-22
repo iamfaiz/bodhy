@@ -1,0 +1,14 @@
+a {
+    color: $dark-gray;
+    padding-bottom: 1px;
+    border-bottom: 1px solid $red;
+
+    &:hover {
+        color: $dark-gray;
+        text-decoration: none;
+    }
+}
+
+.section {
+    padding: 30px;
+}
