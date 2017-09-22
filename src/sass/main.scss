@@ -21,6 +21,12 @@
     src: url(/fonts/crete-round/CreteRound-Regular.otf);
 }
 
+@font-face {
+    font-family: TrocchiRegular;
+    src: url(/fonts/trocchi-regular/Trocchi.otf);
+}
+
+
 @import './variables';
 @import './globals';
 @import './helpers';

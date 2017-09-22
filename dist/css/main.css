@@ -16,6 +16,10 @@
   font-family: CreteRoundRegular;
   src: url(/fonts/crete-round/CreteRound-Regular.otf); }
 
+@font-face {
+  font-family: TrocchiRegular;
+  src: url(/fonts/trocchi-regular/Trocchi.otf); }
+
 a {
   color: #5b5b5b;
   padding-bottom: 1px;
@@ -26,6 +30,9 @@ a {
 
 .section {
   padding: 30px; }
+
+img {
+  max-width: 100%; }
 
 .header {
   background: white;
@@ -99,7 +106,7 @@ a {
     width: 100%; }
 
 .section.showcase {
-  background: #eee; }
+  background: #ffff; }
   .section.showcase .showcase-titles-container {
     position: relative;
     left: -115px; }
@@ -148,29 +155,123 @@ a {
     font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif; }
 
 .section.reviews {
-  background-color: #eee; }
+  background-color: #ffff;
+  padding-top: 35px; }
   .section.reviews .reviews-aside {
     text-align: right; }
     .section.reviews .reviews-aside .reviews-aside-title {
       text-transform: uppercase;
-      color: #b51110; }
+      color: #5b5b5b;
+      font-size: 24px;
+      font-family: LeagueSpartanBold, sans-serif;
+      line-height: 25px; }
     .section.reviews .reviews-aside .reviews-aside-subtitle {
-      color: #5b5b5b; }
+      color: #5b5b5b;
+      font-size: 20px;
+      font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif; }
     .section.reviews .reviews-aside .reviews-aside-note {
-      color: #b51110;
-      font-weight: bold;
+      color: #5b5b5b;
       text-transform: uppercase;
-      font-size: .9em; }
+      font-size: 11px;
+      font-family: LeagueSpartanBold, sans-serif;
+      line-height: 16px; }
+    .section.reviews .reviews-aside .reviews-aside-steps {
+      list-style: none;
+      font-size: 18.02px;
+      text-align: right;
+      display: inline-block;
+      font-family: TrocchiRegular, Georgia, "Times New Roman", Times, serif;
+      color: #5b5b5b;
+      padding: 0; }
+      .section.reviews .reviews-aside .reviews-aside-steps li {
+        margin-top: 10px;
+        min-height: 100px;
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        text-align: center; }
+    .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(1) {
+      background-image: url(/img/step-one.png);
+      background-position: right; }
+    .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(2) {
+      background-image: url(/img/step-two.png);
+      background-position: left; }
+    .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(3) {
+      background-image: url(/img/step-three.png);
+      background-position: right; }
   .section.reviews .reviews-main .reviews-main-title {
     text-align: center;
     color: #5b5b5b;
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: 3.1em; }
+    font-size: 47px;
+    font-family: LeagueSpartanBold, sans-serif;
+    letter-spacing: -0.01em; }
   .section.reviews .reviews-main .reviews-main-subtitle {
+    font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif;
     text-align: center;
-    color: #282828;
-    font-size: 1.2em;
-    margin-bottom: 30px; }
-  .section.reviews .buying-info p {
-    text-align: center; }
+    color: #5b5b5b;
+    font-size: 23px;
+    margin-bottom: 45px; }
+  .section.reviews .reviews-list {
+    color: #5b5b5b; }
+    .section.reviews .reviews-list .reviews-item {
+      margin-bottom: 33px; }
+      .section.reviews .reviews-list .reviews-item .reviews-item-name {
+        font-size: 17.93px;
+        font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif;
+        padding-left: 10px; }
+      .section.reviews .reviews-list .reviews-item .reviews-item-location {
+        font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif;
+        font-size: 17.93px;
+        text-transform: uppercase;
+        padding-left: 10px; }
+      .section.reviews .reviews-list .reviews-item .reviews-item-comments {
+        margin-top: 10px;
+        font-family: CormorantGaramondRegular, sans-serif;
+        font-size: 18px; }
+  .section.reviews .buying-info {
+    margin-top: 50px;
+    color: #5b5b5b;
+    text-align: center;
+    max-width: 100%; }
+    .section.reviews .buying-info .buying-info-links {
+      font-family: LeagueSpartanBold, sans-serif;
+      font-size: 24.01px;
+      line-height: 16.01px;
+      text-transform: uppercase; }
+      .section.reviews .buying-info .buying-info-links a {
+        padding: 10px 20px;
+        border-bottom: none; }
+        .section.reviews .buying-info .buying-info-links a:first-of-type {
+          border-right: 3px solid #5b5b5b;
+          padding-right: 23px; }
+    .section.reviews .buying-info .buying-info-details {
+      font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif;
+      font-size: 16.01px;
+      line-height: 23.01px;
+      margin-top: 25px;
+      position: relative;
+      display: inline-block; }
+      .section.reviews .buying-info .buying-info-details:before {
+        content: url(/img/quote-start.png);
+        font-size: 22px;
+        position: absolute;
+        left: -80px;
+        top: -20px; }
+      .section.reviews .buying-info .buying-info-details:after {
+        content: url(/img/quote-end.png);
+        font-size: 22px;
+        position: absolute;
+        top: -20px;
+        right: -75px; }
+    .section.reviews .buying-info .buying-info-amazon, .section.reviews .buying-info .buying-info-launch-price {
+      font-family: LeagueSpartanBold, sans-serif;
+      font-size: 12.01px;
+      line-height: 23.01px;
+      text-transform: uppercase; }
+    .section.reviews .buying-info .buying-info-launch-price {
+      font-size: 14.01px; }
+    .section.reviews .buying-info p {
+      text-align: center; }

@@ -1,23 +1,66 @@
 .section.reviews {
     background-color: $light-gray;
+    padding-top: 35px;
 
     .reviews-aside {
         text-align: right;
 
         .reviews-aside-title {
             text-transform: uppercase;
-            color: $red;
+            color: $dark-gray;
+            font-size: 24px;
+            font-family: $league-spartan-stack;
+            line-height: 25px;
         }
 
         .reviews-aside-subtitle {
             color: $dark-gray;
+            font-size: 20px;
+            font-family: $crete-round-stack;
         }
 
         .reviews-aside-note {
-            color: $red;
-            font-weight: bold;
+            color: $dark-gray;
             text-transform: uppercase;
-            font-size: .9em;
+            font-size: 11px;
+            font-family: $league-spartan-stack;
+            line-height: 16px;
+        }
+
+        .reviews-aside-steps {
+            list-style: none;
+            font-size: 18.02px;
+            text-align: right;
+            display: inline-block;
+            font-family: $trocchi-regular-stack;
+            color: $dark-gray;
+            padding: 0;
+
+            li {
+                margin-top: 10px;
+                min-height: 100px;
+                width: 160px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-repeat: no-repeat;
+                text-align: center;
+            }
+        }
+
+        .reviews-aside-steps > li:nth-child(1) {
+            background-image: url(/img/step-one.png);
+            background-position: right;
+        }
+
+        .reviews-aside-steps > li:nth-child(2) {
+            background-image: url(/img/step-two.png);
+            background-position: left;
+        }
+
+        .reviews-aside-steps > li:nth-child(3) {
+            background-image: url(/img/step-three.png);
+            background-position: right;
         }
     }
 
@@ -26,19 +69,105 @@
             text-align: center;
             color: $dark-gray;
             text-transform: uppercase;
-            font-weight: bold;
-            font-size: 3.1em;
+            font-size: 47px;
+            font-family: $league-spartan-stack;
+            letter-spacing: -0.01em;
         }
 
         .reviews-main-subtitle {
+            font-family: $crete-round-stack;
             text-align: center;
-            color: darken($dark-gray, 20%);
-            font-size: 1.2em;
-            margin-bottom: 30px;
+            color: $dark-gray;
+            font-size: 23px;
+            margin-bottom: 45px;
+        }
+    }
+
+    .reviews-list {
+        color: $dark-gray;
+
+        .reviews-item {
+            margin-bottom: 33px;
+
+            .reviews-item-name {
+                font-size: 17.93px;
+                font-family: $crete-round-stack;
+                padding-left: 10px;
+            }
+
+            .reviews-item-location {
+                font-family: $crete-round-stack;
+                font-size: 17.93px;
+                text-transform: uppercase;
+                padding-left: 10px;
+            }
+
+            .reviews-item-comments {
+                margin-top: 10px;
+                font-family: $cormorant-garamond-stack;
+                font-size: 18px;
+            }
         }
     }
 
    .buying-info {
+       margin-top: 50px;
+       color: $dark-gray;
+       text-align: center;
+       max-width: 100%;
+
+       .buying-info-links {
+           font-family: $league-spartan-stack;
+           font-size: 24.01px;
+           line-height: 16.01px;
+           text-transform: uppercase;
+
+           a {
+               padding: 10px 20px;
+               border-bottom: none;
+
+               &:first-of-type {
+                   border-right: 3px solid $dark-gray;
+                   padding-right: 23px;
+               }
+           }
+       }
+
+       .buying-info-details {
+           font-family: $crete-round-stack;
+           font-size: 16.01px;
+           line-height: 23.01px;
+           margin-top: 25px;
+           position: relative;
+           display: inline-block;
+
+           &:before {
+                content: url(/img/quote-start.png);
+                font-size: 22px;
+                position: absolute;
+                left: -80px;
+                top: -20px;
+           }
+
+           &:after {
+                content: url(/img/quote-end.png);
+                font-size: 22px;
+                position: absolute;
+                top: -20px;
+                right: -75px;
+            }
+       }
+
+       .buying-info-amazon, .buying-info-launch-price {
+           font-family: $league-spartan-stack;
+           font-size: 12.01px;
+           line-height: 23.01px;
+           text-transform: uppercase;
+       }
+
+       .buying-info-launch-price {
+           font-size: 14.01px;
+       }
 
         p {
             text-align: center;
