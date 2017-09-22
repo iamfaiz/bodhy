@@ -1,0 +1,86 @@
+.header {
+    background: $light-gray;
+    padding-top: 30px;
+    overflow: hidden;
+    text-align: center;
+
+    .header-description {
+        font-size: .7em;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        text-align: center;
+    }
+
+    .nav {
+        text-align: center;
+        font-family: $font-stack-one;
+        font-size: 1.6em;
+
+        .nav-links {
+            margin: 0 auto;
+            list-style: none;
+            display: flex;
+
+            li {
+
+                a {
+                    color: $red;
+                    padding: 0 20px;
+                }
+
+                &:after {
+                    content: '|';
+                    color: $red;
+                }
+
+                &:last-of-type:after {
+                    content: '';
+                }
+            }
+        }
+        
+    }
+    
+    .logo-review-row {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .reader-review {
+        padding: 20px 0;
+        background-color: white;
+
+        .reader-review-heading {
+            color: $red;
+            border-bottom: 1px solid $red;
+            display: inline-block;
+            padding: 5px 20px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: .2em;
+            font-size: .9em;
+        }
+
+        .reader-review-comment {
+            font-family: $font-stack-one;
+            font-size: 1.3em;
+            margin-bottom: 0;
+        }
+
+        .reader-review-author {
+            text-transform: uppercase;
+            letter-spacing: .2em;
+            font-size: .9em;
+        }
+
+        .reader-review-author-title {
+            text-transform: uppercase;
+            letter-spacing: .2em;
+            font-size: .8em;
+            color: $dark-gray;
+        }
+
+
+    }
+}
