@@ -145,6 +145,7 @@
 
 // Large devices (desktops, 992px and up)
 @media (max-width: 992px) {
+
     .section.showcase {
 
         .showcase-titles-container {
@@ -173,4 +174,13 @@
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+    .section.header {
+        .reader-review {
+            background-image: none;
+            -webkit-box-shadow: -13px 15px 20px 0px rgba(150,151,155,0.56);
+            -moz-box-shadow: -13px 15px 20px 0px rgba(150,151,155,0.56);
+            box-shadow: -13px 15px 20px 0px rgba(150,151,155,0.56);
+        }
+    }
+}

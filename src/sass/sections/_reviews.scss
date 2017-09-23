@@ -7,7 +7,7 @@
 
         .reviews-aside-title {
             text-transform: uppercase;
-            color: $dark-gray;
+            color: $red;
             font-size: 24px;
             font-family: $league-spartan-stack;
             line-height: 25px;
@@ -20,7 +20,7 @@
         }
 
         .reviews-aside-note {
-            color: $dark-gray;
+            color: $red;
             text-transform: uppercase;
             font-size: 11px;
             font-family: $league-spartan-stack;
@@ -67,7 +67,7 @@
     .reviews-main {
         .reviews-main-title {
             text-align: center;
-            color: $dark-gray;
+            color: $lighter-gray;
             text-transform: uppercase;
             font-size: 47px;
             font-family: $league-spartan-stack;
@@ -125,6 +125,7 @@
            a {
                padding: 10px 20px;
                border-bottom: none;
+               color: $red;
 
                &:first-of-type {
                    border-right: 3px solid $dark-gray;
@@ -167,6 +168,7 @@
 
        .buying-info-launch-price {
            font-size: 14.01px;
+           color: $red;
        }
 
         p {

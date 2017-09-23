@@ -2,6 +2,7 @@
 @import url("//fonts.googleapis.com/css?family=Lato:900");
 @import url("//fonts.googleapis.com/css?family=Playfair+Display");
 @import url("//fonts.googleapis.com/css?family=Fira+Sans:500");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @font-face {
   font-family: CormorantRegular;
   src: url(./../fonts/comorant/Cormorant-Regular.otf); }
@@ -32,7 +33,7 @@ body {
 a {
   color: #5b5b5b;
   padding-bottom: 1px;
-  border-bottom: 1px solid #b51110; }
+  border-bottom: 1px solid #c2727d; }
   a:hover {
     color: #5b5b5b;
     text-decoration: none; }
@@ -44,7 +45,7 @@ img {
   max-width: 100%; }
 
 .header {
-  background: white;
+  background: #ebebeb;
   overflow: hidden;
   text-align: center; }
   .header .header-description {
@@ -69,21 +70,25 @@ img {
       display: flex;
       padding: 0; }
       .header .nav .nav-links li a {
-        color: #b51110;
+        color: #c2727d;
         padding: 0 20px;
         border-bottom: none; }
       .header .nav .nav-links li:after {
         content: '|';
-        color: #b51110; }
+        color: #c2727d; }
       .header .nav .nav-links li:last-of-type:after {
         content: ''; }
   .header .logo-review-row {
     margin: 70px 0; }
   .header .reader-review {
-    padding: 20px 0; }
+    width: 507px;
+    height: 196;
+    padding: 20px 0;
+    background-image: url("./../img/reviews-background.png");
+    max-width: 100%; }
     .header .reader-review .reader-review-heading {
-      color: #b51110;
-      border-bottom: 1px solid #b51110;
+      color: #c2727d;
+      border-bottom: 1px solid #c2727d;
       display: inline-block;
       padding: 5px 20px;
       margin-bottom: 20px;
@@ -101,7 +106,7 @@ img {
       font-size: .9em;
       font-family: Lato, sans-serif;
       font-weight: 900;
-      color: #b51110;
+      color: #c2727d;
       margin-bottom: 0;
       margin-top: 10px; }
     .header .reader-review .reader-review-author-title {
@@ -121,7 +126,8 @@ img {
     width: 100%; }
 
 .section.showcase {
-  background: white; }
+  background: #ebebeb;
+  padding-top: 100px; }
   .section.showcase .showcase-titles-container {
     position: relative;
     left: -115px; }
@@ -132,7 +138,7 @@ img {
   .section.showcase .showcase-title {
     text-align: center;
     font-size: 73.99px;
-    color: #5b5b5b;
+    color: #c2727d;
     text-transform: uppercase;
     font-family: LeagueSpartanBold, sans-serif;
     letter-spacing: -0.02em;
@@ -147,7 +153,7 @@ img {
     font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif; }
   .section.showcase .showcase-description {
     font-size: 24px;
-    color: #5b5b5b;
+    color: #909090;
     font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif;
     letter-spacing: 0.034em; }
   .section.showcase .showcase-price {
@@ -156,7 +162,7 @@ img {
     font-size: 34px;
     color: #5b5b5b; }
   .section.showcase .buy-now {
-    color: #5b5b5b;
+    color: #909090;
     text-transform: uppercase;
     margin-top: 10px;
     font-family: Lato, sans-serif;
@@ -165,18 +171,18 @@ img {
   .section.showcase .conclusive-title {
     margin-top: 55px;
     text-align: center;
-    color: #5b5b5b;
+    color: #c2727d;
     font-size: 28px;
     font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif; }
 
 .section.reviews {
-  background-color: white;
+  background-color: #ebebeb;
   padding-top: 35px; }
   .section.reviews .reviews-aside {
     text-align: right; }
     .section.reviews .reviews-aside .reviews-aside-title {
       text-transform: uppercase;
-      color: #5b5b5b;
+      color: #c2727d;
       font-size: 24px;
       font-family: LeagueSpartanBold, sans-serif;
       line-height: 25px; }
@@ -185,7 +191,7 @@ img {
       font-size: 20px;
       font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif; }
     .section.reviews .reviews-aside .reviews-aside-note {
-      color: #5b5b5b;
+      color: #c2727d;
       text-transform: uppercase;
       font-size: 11px;
       font-family: LeagueSpartanBold, sans-serif;
@@ -218,7 +224,7 @@ img {
       background-position: right; }
   .section.reviews .reviews-main .reviews-main-title {
     text-align: center;
-    color: #5b5b5b;
+    color: #909090;
     text-transform: uppercase;
     font-size: 47px;
     font-family: LeagueSpartanBold, sans-serif;
@@ -258,7 +264,8 @@ img {
       text-transform: uppercase; }
       .section.reviews .buying-info .buying-info-links a {
         padding: 10px 20px;
-        border-bottom: none; }
+        border-bottom: none;
+        color: #c2727d; }
         .section.reviews .buying-info .buying-info-links a:first-of-type {
           border-right: 3px solid #5b5b5b;
           padding-right: 23px; }
@@ -287,7 +294,8 @@ img {
       line-height: 23.01px;
       text-transform: uppercase; }
     .section.reviews .buying-info .buying-info-launch-price {
-      font-size: 14.01px; }
+      font-size: 14.01px;
+      color: #c2727d; }
     .section.reviews .buying-info p {
       text-align: center; }
 
@@ -306,8 +314,9 @@ img {
       .section.about .about-content .about-headings-group .about-intro-title {
         display: inline-block; }
     .section.about .about-content .about-intro-title {
+      color: #909090;
       font-family: LeagueSpartanBold, sans-serif;
-      border-bottom: 1px solid white;
+      border-bottom: 1px solid #ebebeb;
       font-size: 18px;
       letter-spacing: 0.01em;
       text-transform: uppercase;
@@ -332,40 +341,43 @@ img {
       text-align: center; }
     .section.about .about-content .about-description {
       font-family: CormorantRegular, sans-serif;
-      color: white;
+      color: #ebebeb;
       font-size: 24px;
       text-align: right;
       line-height: 34px; }
     .section.about .about-content .about-description-inspiration {
       font-family: CormorantRegular, sans-serif;
-      color: white;
+      color: #ebebeb;
       font-size: 14px;
       text-align: right;
       line-height: 34px; }
 
 .section.prefooter {
-  padding-bottom: 0; }
+  padding-bottom: 0;
+  background-color: #ebebeb;
+  margin-bottom: -50px; }
   .section.prefooter .more-info-links {
     font-family: LeagueSpartanBold, sans-serif;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 0.22em;
     text-align: center;
-    color: #5b5b5b;
     margin: 55px 0; }
     .section.prefooter .more-info-links a {
       border-bottom: none;
-      padding: 5px 0; }
+      padding: 5px 0;
+      color: #c2727d; }
       .section.prefooter .more-info-links a:first-of-type {
         padding-right: 35px;
-        border-right: 2px solid #5b5b5b; }
+        border-right: 2px solid #c2727d; }
       .section.prefooter .more-info-links a:last-of-type {
         padding-left: 35px; }
   .section.prefooter .blog-post .post-category {
     font-family: LeagueSpartanBold, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
-    line-height: 16px; }
+    line-height: 16px;
+    color: #c2727d; }
   .section.prefooter .blog-post .post-title {
     font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
     font-size: 36px;
@@ -373,6 +385,7 @@ img {
     line-height: 37px;
     margin-top: 10px; }
   .section.prefooter .blog-post .post-date {
+    color: #c2727d;
     font-family: LeagueSpartanBold, sans-serif;
     font-size: 10px;
     text-transform: uppercase;
@@ -390,6 +403,7 @@ img {
     margin-top: 10px;
     text-transform: uppercase; }
     .section.prefooter .blog-post .post-readmore a {
+      color: #c2727d;
       border-bottom: none; }
   .section.prefooter .prefooter-heading {
     text-align: center;
@@ -400,16 +414,18 @@ img {
       text-transform: uppercase;
       font-size: 17.9px;
       padding: 15px 50px;
-      color: #5b5b5b;
-      border-bottom: 2px solid #5b5b5b;
+      color: #909090;
+      border-bottom: 2px solid #909090;
       display: inline-block; }
+  .section.prefooter .newsletter-title {
+    font-family: "Open Sans", sans-serif; }
   .section.prefooter .newsletter-description {
     text-align: center;
-    font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif;
     line-height: 29px;
-    font-size: 16px; }
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif; }
   .section.prefooter .newsletter-box {
-    background: #b51110;
+    background: #c2727d;
     padding: 40px; }
     .section.prefooter .newsletter-box .newsletter-box-inner {
       background: white;
@@ -425,14 +441,15 @@ img {
           border-color: rgba(0, 0, 0, 0.15); }
       .section.prefooter .newsletter-box .newsletter-box-inner .newsletter-input-group button {
         border-radius: 0;
-        background: #b51110; }
+        background: #c2727d; }
   .section.prefooter .social-media-section {
     margin: 50px 0; }
     .section.prefooter .social-media-section .happy-to-connect {
       text-align: center;
       font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif;
       font-size: 24px;
-      line-height: 16px; }
+      line-height: 16px;
+      color: #909090; }
     .section.prefooter .social-media-section .social-links {
       margin-top: 30px;
       text-align: center; }
@@ -448,8 +465,9 @@ img {
             padding-right: 0; }
 
 .section.footer {
+  background-color: #ebebeb;
   text-align: center;
-  padding-top: 0; }
+  padding-top: 50px; }
   .section.footer .logo-caption {
     font-family: LeagueSpartanBold, sans-serif;
     font-size: 14px;
@@ -536,3 +554,10 @@ img {
     line-height: 30px; }
   .section.prefooter .social-links-container img {
     max-width: 28px; } }
+
+@media (max-width: 1200px) {
+  .section.header .reader-review {
+    background-image: none;
+    -webkit-box-shadow: -13px 15px 20px 0px rgba(150, 151, 155, 0.56);
+    -moz-box-shadow: -13px 15px 20px 0px rgba(150, 151, 155, 0.56);
+    box-shadow: -13px 15px 20px 0px rgba(150, 151, 155, 0.56); } }

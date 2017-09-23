@@ -1,5 +1,6 @@
 .section.showcase {
     background: $light-gray;
+    padding-top: 100px;
 
     .showcase-titles-container {
         position: relative;
@@ -15,7 +16,7 @@
     .showcase-title {
         text-align: center;
         font-size: 73.99px;
-        color: $dark-gray;
+        color: $red;
         text-transform: uppercase;
         font-family: $league-spartan-stack;
         letter-spacing: -0.02em;
@@ -36,7 +37,7 @@
 
     .showcase-description {
         font-size: 24px;
-        color: $dark-gray;
+        color: $lighter-gray;
         font-family: $crete-round-stack;
         letter-spacing: 0.034em;
     }
@@ -49,7 +50,7 @@
     }
 
     .buy-now {
-        color: $dark-gray;
+        color: $lighter-gray;
         text-transform: uppercase;
         margin-top: 10px;
         font-family: $lato-black-stack;
@@ -60,7 +61,7 @@
     .conclusive-title {
         margin-top: 55px;
         text-align: center;
-        color: $dark-gray;
+        color: $red;
         font-size: 28px;
         font-family: $crete-round-stack;
     }
