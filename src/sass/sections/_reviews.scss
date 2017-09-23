@@ -49,17 +49,17 @@
         }
 
         .reviews-aside-steps > li:nth-child(1) {
-            background-image: url(/img/step-one.png);
+            background-image: url(./../img/step-one.png);
             background-position: right;
         }
 
         .reviews-aside-steps > li:nth-child(2) {
-            background-image: url(/img/step-two.png);
+            background-image: url(./../img/step-two.png);
             background-position: left;
         }
 
         .reviews-aside-steps > li:nth-child(3) {
-            background-image: url(/img/step-three.png);
+            background-image: url(./../img/step-three.png);
             background-position: right;
         }
     }
@@ -142,7 +142,7 @@
            display: inline-block;
 
            &:before {
-                content: url(/img/quote-start.png);
+                content: url(./../img/quote-start.png);
                 font-size: 22px;
                 position: absolute;
                 left: -80px;
@@ -150,7 +150,7 @@
            }
 
            &:after {
-                content: url(/img/quote-end.png);
+                content: url(./../img/quote-end.png);
                 font-size: 22px;
                 position: absolute;
                 top: -20px;
