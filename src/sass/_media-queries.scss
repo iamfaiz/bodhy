@@ -1,0 +1,172 @@
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+
+    .section.showcase {
+        .showcase-title {
+            font-size: 50px;
+        }
+    }
+
+    .section.reviews {
+        .buying-info-links {
+            a {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .section.prefooter {
+        background: aqua;
+        .more-info-links {
+            a { 
+                display: block;
+                font-size: 14px;
+
+                &:first-of-type {
+                    border-right: none;
+                    padding-right: 0;
+                    margin-bottom: 10px;
+                }
+
+                &:last-of-type {
+                    padding-left: 0;
+                }
+            }
+        }
+
+        .social-links .social-links-container {
+            width: 100%;
+
+            a {
+                padding-right: 5px !important;
+
+                img {
+                    max-width: 20px !important;
+                }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+    .section.header {
+        .header-description {
+            font-size: 10px;
+        }
+
+        .nav {
+
+            .nav-links {
+                flex-direction: column;
+
+                li {
+                    padding: 5px 0;
+                }
+
+                li:after {
+                    content: '';
+                }
+            }
+
+        }
+    }
+
+    .section.reviews {
+
+        .reviews-aside {
+            text-align: center;
+
+            br {
+                display: none;
+            }
+
+            .reviews-aside-steps {
+                list-style-type: decimal;
+
+
+                li {
+                    background-image: none !important;
+                    min-height: auto;
+                }
+            }
+        }
+
+        .reviews-main {
+            margin-top: 30px;
+        }
+
+        .buying-info {
+
+            .buying-info-links {
+                a {
+                    display: block;
+
+                    &:first-of-type {
+                        border-right: none;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            .buying-info-details:before, .buying-info-details:after {
+                content: '';
+            }
+
+        }
+
+    }
+
+    .section.prefooter {
+
+        .more-info-links {
+            font-size: 10px;
+        }
+
+
+        .social-links-container {
+
+            a {
+                padding-right: 10px !important;
+
+                img {
+                    max-width: 20px !important;
+                }
+            }
+
+        }
+
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+    .section.showcase {
+
+        .showcase-titles-container {
+            position: static;
+            margin-top: 30px;
+        }
+
+        .showcase-descriptions-container {
+            position: static;
+            text-align: center;
+        }
+
+    }
+
+    .section.prefooter {
+
+        .social-media-section .happy-to-connect {
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        .social-links-container img {
+            max-width: 28px;
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {}

@@ -61,7 +61,8 @@ img {
     .header .nav .nav-links {
       margin: 0 auto;
       list-style: none;
-      display: flex; }
+      display: flex;
+      padding: 0; }
       .header .nav .nav-links li a {
         color: #b51110;
         padding: 0 20px;
@@ -185,7 +186,7 @@ img {
       font-family: LeagueSpartanBold, sans-serif;
       line-height: 16px; }
     .section.reviews .reviews-aside .reviews-aside-steps {
-      list-style: none;
+      list-style-type: none;
       font-size: 18.02px;
       text-align: right;
       display: inline-block;
@@ -458,3 +459,73 @@ img {
     max-width: 100%;
     margin: 0 auto;
     color: #c0c0c0; }
+
+@media (max-width: 576px) {
+  .section.showcase .showcase-title {
+    font-size: 50px; }
+  .section.reviews .buying-info-links a {
+    font-size: 18px; }
+  .section.prefooter {
+    background: aqua; }
+    .section.prefooter .more-info-links a {
+      display: block;
+      font-size: 14px; }
+      .section.prefooter .more-info-links a:first-of-type {
+        border-right: none;
+        padding-right: 0;
+        margin-bottom: 10px; }
+      .section.prefooter .more-info-links a:last-of-type {
+        padding-left: 0; }
+    .section.prefooter .social-links .social-links-container {
+      width: 100%; }
+      .section.prefooter .social-links .social-links-container a {
+        padding-right: 5px !important; }
+        .section.prefooter .social-links .social-links-container a img {
+          max-width: 20px !important; } }
+
+@media (max-width: 768px) {
+  .section.header .header-description {
+    font-size: 10px; }
+  .section.header .nav .nav-links {
+    flex-direction: column; }
+    .section.header .nav .nav-links li {
+      padding: 5px 0; }
+    .section.header .nav .nav-links li:after {
+      content: ''; }
+  .section.reviews .reviews-aside {
+    text-align: center; }
+    .section.reviews .reviews-aside br {
+      display: none; }
+    .section.reviews .reviews-aside .reviews-aside-steps {
+      list-style-type: decimal; }
+      .section.reviews .reviews-aside .reviews-aside-steps li {
+        background-image: none !important;
+        min-height: auto; }
+  .section.reviews .reviews-main {
+    margin-top: 30px; }
+  .section.reviews .buying-info .buying-info-links a {
+    display: block; }
+    .section.reviews .buying-info .buying-info-links a:first-of-type {
+      border-right: none;
+      margin-bottom: 10px; }
+  .section.reviews .buying-info .buying-info-details:before, .section.reviews .buying-info .buying-info-details:after {
+    content: ''; }
+  .section.prefooter .more-info-links {
+    font-size: 10px; }
+  .section.prefooter .social-links-container a {
+    padding-right: 10px !important; }
+    .section.prefooter .social-links-container a img {
+      max-width: 20px !important; } }
+
+@media (max-width: 992px) {
+  .section.showcase .showcase-titles-container {
+    position: static;
+    margin-top: 30px; }
+  .section.showcase .showcase-descriptions-container {
+    position: static;
+    text-align: center; }
+  .section.prefooter .social-media-section .happy-to-connect {
+    font-size: 18px;
+    line-height: 30px; }
+  .section.prefooter .social-links-container img {
+    max-width: 28px; } }
