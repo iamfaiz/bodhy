@@ -12,6 +12,13 @@
         color: $dark-gray;
     }
 
+    .menu-toggler {
+        display: none;
+        margin: 20px 0;
+        text-transform: uppercase;
+        font-family: $lato-black-stack;
+    }
+
     .nav {
         text-align: center;
         font-family: $cormorant-infant-stack;

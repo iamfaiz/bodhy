@@ -54,7 +54,12 @@
             font-size: 10px;
         }
 
+        .menu-toggler {
+            display: inline-block;
+        }
+
         .nav {
+            display: none;
 
             .nav-links {
                 flex-direction: column;

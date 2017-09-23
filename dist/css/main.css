@@ -54,6 +54,11 @@ img {
     text-align: center;
     font-family: Oswald, sans-serif;
     color: #5b5b5b; }
+  .header .menu-toggler {
+    display: none;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-family: Lato, sans-serif; }
   .header .nav {
     text-align: center;
     font-family: CormorantInfantRegular, sans-serif;
@@ -484,12 +489,16 @@ img {
 @media (max-width: 768px) {
   .section.header .header-description {
     font-size: 10px; }
-  .section.header .nav .nav-links {
-    flex-direction: column; }
-    .section.header .nav .nav-links li {
-      padding: 5px 0; }
-    .section.header .nav .nav-links li:after {
-      content: ''; }
+  .section.header .menu-toggler {
+    display: inline-block; }
+  .section.header .nav {
+    display: none; }
+    .section.header .nav .nav-links {
+      flex-direction: column; }
+      .section.header .nav .nav-links li {
+        padding: 5px 0; }
+      .section.header .nav .nav-links li:after {
+        content: ''; }
   .section.reviews .reviews-aside {
     text-align: center; }
     .section.reviews .reviews-aside br {
