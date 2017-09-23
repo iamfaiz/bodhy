@@ -1,5 +1,7 @@
 @import url("//fonts.googleapis.com/css?family=Oswald");
-@import url("https://fonts.googleapis.com/css?family=Lato:900");
+@import url("//fonts.googleapis.com/css?family=Lato:900");
+@import url("//fonts.googleapis.com/css?family=Playfair+Display");
+@import url("//fonts.googleapis.com/css?family=Fira+Sans:500");
 @font-face {
   font-family: CormorantRegular;
   src: url(/fonts/comorant/Cormorant-Regular.otf); }
@@ -23,6 +25,9 @@
 @font-face {
   font-family: TrocchiRegular;
   src: url(/fonts/trocchi-regular/Trocchi.otf); }
+
+body {
+  color: #5b5b5b; }
 
 a {
   color: #5b5b5b;
@@ -331,3 +336,125 @@ img {
       font-size: 14px;
       text-align: right;
       line-height: 34px; }
+
+.section.prefooter {
+  padding-bottom: 0; }
+  .section.prefooter .more-info-links {
+    font-family: LeagueSpartanBold, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    text-align: center;
+    color: #5b5b5b;
+    margin: 55px 0; }
+    .section.prefooter .more-info-links a {
+      border-bottom: none;
+      padding: 5px 0; }
+      .section.prefooter .more-info-links a:first-of-type {
+        padding-right: 35px;
+        border-right: 2px solid #5b5b5b; }
+      .section.prefooter .more-info-links a:last-of-type {
+        padding-left: 35px; }
+  .section.prefooter .blog-post .post-category {
+    font-family: LeagueSpartanBold, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 16px; }
+  .section.prefooter .blog-post .post-title {
+    font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+    font-size: 36px;
+    letter-spacing: -0.045em;
+    line-height: 37px;
+    margin-top: 10px; }
+  .section.prefooter .blog-post .post-date {
+    font-family: LeagueSpartanBold, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 16px;
+    margin-top: 10px; }
+  .section.prefooter .blog-post .post-exerpt {
+    font-family: CormorantRegular, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 10px; }
+  .section.prefooter .blog-post .post-readmore {
+    font-family: LeagueSpartanBold, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 10px;
+    text-transform: uppercase; }
+    .section.prefooter .blog-post .post-readmore a {
+      border-bottom: none; }
+  .section.prefooter .prefooter-heading {
+    text-align: center;
+    margin-bottom: 50px; }
+    .section.prefooter .prefooter-heading .prefooter-heading-inner {
+      text-align: center;
+      font-family: LeagueSpartanBold, sans-serif;
+      text-transform: uppercase;
+      font-size: 17.9px;
+      padding: 15px 50px;
+      color: #5b5b5b;
+      border-bottom: 2px solid #5b5b5b;
+      display: inline-block; }
+  .section.prefooter .newsletter-description {
+    text-align: center;
+    font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif;
+    line-height: 29px;
+    font-size: 16px; }
+  .section.prefooter .newsletter-box {
+    background: #b51110;
+    padding: 40px; }
+    .section.prefooter .newsletter-box .newsletter-box-inner {
+      background: white;
+      padding: 20px; }
+      .section.prefooter .newsletter-box .newsletter-box-inner .newsletter-box-title {
+        font-size: 16px; }
+      .section.prefooter .newsletter-box .newsletter-box-inner .newsletter-box-description {
+        font-size: 12px;
+        line-height: 18px; }
+      .section.prefooter .newsletter-box .newsletter-box-inner .newsletter-input-group input {
+        border-radius: 0; }
+        .section.prefooter .newsletter-box .newsletter-box-inner .newsletter-input-group input:focus {
+          border-color: rgba(0, 0, 0, 0.15); }
+      .section.prefooter .newsletter-box .newsletter-box-inner .newsletter-input-group button {
+        border-radius: 0;
+        background: #b51110; }
+  .section.prefooter .social-media-section {
+    margin: 50px 0; }
+    .section.prefooter .social-media-section .happy-to-connect {
+      text-align: center;
+      font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif;
+      font-size: 24px;
+      line-height: 16px; }
+    .section.prefooter .social-media-section .social-links {
+      margin-top: 30px;
+      text-align: center; }
+      .section.prefooter .social-media-section .social-links .social-links-container {
+        padding: 10px;
+        display: inline-block;
+        background-color: #5b5b5b;
+        background-color: #ebebeb; }
+        .section.prefooter .social-media-section .social-links .social-links-container a {
+          padding-right: 50px;
+          border-bottom: none; }
+          .section.prefooter .social-media-section .social-links .social-links-container a:last-of-type {
+            padding-right: 0; }
+
+.section.footer {
+  text-align: center;
+  padding-top: 0; }
+  .section.footer .logo-caption {
+    font-family: LeagueSpartanBold, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #c0c0c0;
+    margin-bottom: 30px; }
+  .section.footer .footer-text {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    width: 850px;
+    max-width: 100%;
+    margin: 0 auto;
+    color: #c0c0c0; }
