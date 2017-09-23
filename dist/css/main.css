@@ -4,27 +4,27 @@
 @import url("//fonts.googleapis.com/css?family=Fira+Sans:500");
 @font-face {
   font-family: CormorantRegular;
-  src: url(/fonts/comorant/Cormorant-Regular.otf); }
+  src: url(./../fonts/comorant/Cormorant-Regular.otf); }
 
 @font-face {
   font-family: CormorantInfantRegular;
-  src: url(/fonts/comorant/CormorantInfant-Regular.otf); }
+  src: url(./../fonts/comorant/CormorantInfant-Regular.otf); }
 
 @font-face {
   font-family: CormorantGaramondRegular;
-  src: url(/fonts/comorant/CormorantGaramond-Regular.otf); }
+  src: url(./../fonts/comorant/CormorantGaramond-Regular.otf); }
 
 @font-face {
   font-family: LeagueSpartanBold;
-  src: url(/fonts/league-spartan/LeagueSpartan-Bold.otf); }
+  src: url(./../fonts/league-spartan/LeagueSpartan-Bold.otf); }
 
 @font-face {
   font-family: CreteRoundRegular;
-  src: url(/fonts/crete-round/CreteRound-Regular.otf); }
+  src: url(./../fonts/crete-round/CreteRound-Regular.otf); }
 
 @font-face {
   font-family: TrocchiRegular;
-  src: url(/fonts/trocchi-regular/Trocchi.otf); }
+  src: url(./../fonts/trocchi-regular/Trocchi.otf); }
 
 body {
   color: #5b5b5b; }
@@ -208,13 +208,13 @@ img {
         background-repeat: no-repeat;
         text-align: center; }
     .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(1) {
-      background-image: url(/img/step-one.png);
+      background-image: url(./../img/step-one.png);
       background-position: right; }
     .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(2) {
-      background-image: url(/img/step-two.png);
+      background-image: url(./../img/step-two.png);
       background-position: left; }
     .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(3) {
-      background-image: url(/img/step-three.png);
+      background-image: url(./../img/step-three.png);
       background-position: right; }
   .section.reviews .reviews-main .reviews-main-title {
     text-align: center;
@@ -270,13 +270,13 @@ img {
       position: relative;
       display: inline-block; }
       .section.reviews .buying-info .buying-info-details:before {
-        content: url(/img/quote-start.png);
+        content: url(./../img/quote-start.png);
         font-size: 22px;
         position: absolute;
         left: -80px;
         top: -20px; }
       .section.reviews .buying-info .buying-info-details:after {
-        content: url(/img/quote-end.png);
+        content: url(./../img/quote-end.png);
         font-size: 22px;
         position: absolute;
         top: -20px;
@@ -325,7 +325,7 @@ img {
       font-size: 14px;
       letter-spacing: 0.29em;
       text-transform: uppercase;
-      background-image: url(/img/red-ribbon.png);
+      background-image: url(./../img/red-ribbon.png);
       background-repeat: no-repeat;
       background-position: 0 10px;
       padding: 18px 105px;
