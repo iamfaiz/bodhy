@@ -81,6 +81,18 @@
             letter-spacing: 0.22em;
             font-size: 14px;
             font-family: $oswald-stack;
+            position: relative;
+
+            &:after {
+                content: '';
+                width: 20px;
+                height: 5px;
+                background: url(./../img/background-tilde.png);
+                background-size: 100% 100%;
+                position: absolute;
+                bottom: -3px;
+                left: 45%;
+            }
         }
 
         .reader-review-comment {
