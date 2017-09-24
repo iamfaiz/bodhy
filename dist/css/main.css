@@ -229,7 +229,7 @@ img {
       text-align: right;
       display: inline-block;
       font-family: TrocchiRegular, Georgia, "Times New Roman", Times, serif;
-      color: #5b5b5b;
+      color: #909090;
       padding: 0; }
       .section.reviews .reviews-aside .reviews-aside-steps li {
         margin-top: 10px;
@@ -242,13 +242,13 @@ img {
         text-align: center; }
     .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(1) {
       background-image: url(./../img/step-one.png);
-      background-position: right; }
+      background-position: 70% 30%; }
     .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(2) {
       background-image: url(./../img/step-two.png);
-      background-position: left; }
+      background-position: 15% 60%; }
     .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(3) {
       background-image: url(./../img/step-three.png);
-      background-position: right; }
+      background-position: 90% 18%; }
   .section.reviews .reviews-main .reviews-main-title {
     text-align: center;
     color: #909090;

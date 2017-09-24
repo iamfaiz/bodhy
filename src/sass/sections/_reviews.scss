@@ -34,7 +34,7 @@
             text-align: right;
             display: inline-block;
             font-family: $trocchi-regular-stack;
-            color: $dark-gray;
+            color: $lighter-gray;
             padding: 0;
 
             li {
@@ -51,17 +51,17 @@
 
         .reviews-aside-steps > li:nth-child(1) {
             background-image: url(./../img/step-one.png);
-            background-position: right;
+            background-position: 70% 30%;
         }
 
         .reviews-aside-steps > li:nth-child(2) {
             background-image: url(./../img/step-two.png);
-            background-position: left;
+            background-position: 15% 60%;
         }
 
         .reviews-aside-steps > li:nth-child(3) {
             background-image: url(./../img/step-three.png);
-            background-position: right;
+            background-position: 90% 18%;
         }
     }
 
