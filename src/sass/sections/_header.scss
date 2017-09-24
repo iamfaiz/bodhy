@@ -19,6 +19,15 @@
         font-family: $lato-black-stack;
     }
 
+    .tagline {
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: $lato-black-stack;
+        font-weight: 300;
+        color: black;
+        margin-top: -5px;
+    }
+
     .nav {
         text-align: center;
         font-family: $cormorant-infant-stack;

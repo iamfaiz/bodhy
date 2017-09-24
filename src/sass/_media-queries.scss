@@ -4,6 +4,12 @@
     .section.showcase {
         .showcase-title {
             font-size: 50px;
+            
+            span {
+                font-size: 30px !important;
+                left: -1px;
+                top: -25px;
+            }
         }
     }
 
@@ -33,14 +39,23 @@
             }
         }
 
+        .social-links {
+            padding: 0 !important;
+        }
+
         .social-links .social-links-container {
             width: 100%;
+            justify-content: space-around;
 
             a {
                 padding-right: 5px !important;
 
-                img {
-                    max-width: 20px !important;
+                // img {
+                //     max-width: 20px !important;
+                // }
+
+                span {
+                    display: none;
                 }
             }
         }
@@ -133,9 +148,9 @@
             a {
                 padding-right: 10px !important;
 
-                img {
-                    max-width: 20px !important;
-                }
+                // img {
+                //     max-width: 20px !important;
+                // }
             }
 
         }
@@ -167,9 +182,9 @@
             line-height: 30px;
         }
 
-        .social-links-container img {
-            max-width: 28px;
-        }
+        // .social-links-container img {
+        //     max-width: 28px;
+        // }
     }
 }
 

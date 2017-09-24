@@ -1,8 +1,8 @@
 @import url("//fonts.googleapis.com/css?family=Oswald");
-@import url("//fonts.googleapis.com/css?family=Lato:900");
 @import url("//fonts.googleapis.com/css?family=Playfair+Display");
 @import url("//fonts.googleapis.com/css?family=Fira+Sans:500");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("//fonts.googleapis.com/css?family=Open+Sans");
+@import url("//fonts.googleapis.com/css?family=Lato:300,900");
 @font-face {
   font-family: CormorantRegular;
   src: url(./../fonts/comorant/Cormorant-Regular.otf); }
@@ -60,6 +60,13 @@ img {
     margin: 20px 0;
     text-transform: uppercase;
     font-family: Lato, sans-serif; }
+  .header .tagline {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: black;
+    margin-top: -5px; }
   .header .nav {
     text-align: center;
     font-family: CormorantInfantRegular, sans-serif;
@@ -145,12 +152,21 @@ img {
     margin-bottom: 0; }
     .section.showcase .showcase-title span {
       font-weight: 300;
-      font-size: 1em !important; }
+      font-size: 37px !important;
+      position: relative;
+      top: -40px;
+      left: -10px; }
   .section.showcase .showcase-subtitle {
     color: #5b5b5b;
     font-size: 24px;
     text-align: center;
     font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif; }
+    .section.showcase .showcase-subtitle span {
+      font-weight: 300;
+      font-size: 15px !important;
+      position: relative;
+      top: -8px;
+      left: -1px; }
   .section.showcase .showcase-description {
     font-size: 24px;
     color: #909090;
@@ -177,7 +193,8 @@ img {
 
 .section.reviews {
   background-color: #ebebeb;
-  padding-top: 35px; }
+  padding-top: 35px;
+  padding-bottom: 100px; }
   .section.reviews .reviews-aside {
     text-align: right; }
     .section.reviews .reviews-aside .reviews-aside-title {
@@ -300,10 +317,15 @@ img {
       text-align: center; }
 
 .section.about {
-  overflow: hidden;
+  overflow: visible;
   background-color: #5b5b5b;
-  background-size: cover;
   color: white; }
+  .section.about .container {
+    background-image: url(./../img/baba.png);
+    overflow: hidden;
+    background-size: cover;
+    margin-top: -80px;
+    padding-top: 20px; }
   .section.about .about-content {
     float: right;
     padding-right: 20px; }
@@ -452,17 +474,27 @@ img {
       color: #909090; }
     .section.prefooter .social-media-section .social-links {
       margin-top: 30px;
-      text-align: center; }
+      text-align: center;
+      padding: 0 150px; }
       .section.prefooter .social-media-section .social-links .social-links-container {
+        text-align: center;
         padding: 10px;
-        display: inline-block;
         background-color: #5b5b5b;
-        background-color: #ebebeb; }
+        background-color: #ebebeb;
+        display: flex;
+        justify-content: space-around; }
         .section.prefooter .social-media-section .social-links .social-links-container a {
           padding-right: 50px;
-          border-bottom: none; }
+          border-bottom: none;
+          font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif;
+          color: #909090;
+          text-transform: uppercase;
+          display: flex;
+          flex-direction: column; }
           .section.prefooter .social-media-section .social-links .social-links-container a:last-of-type {
             padding-right: 0; }
+          .section.prefooter .social-media-section .social-links .social-links-container a img {
+            padding-bottom: 10px; }
 
 .section.footer {
   background-color: #ebebeb;
@@ -486,6 +518,10 @@ img {
 @media (max-width: 576px) {
   .section.showcase .showcase-title {
     font-size: 50px; }
+    .section.showcase .showcase-title span {
+      font-size: 30px !important;
+      left: -1px;
+      top: -25px; }
   .section.reviews .buying-info-links a {
     font-size: 18px; }
   .section.prefooter .more-info-links a {
@@ -497,12 +533,15 @@ img {
       margin-bottom: 10px; }
     .section.prefooter .more-info-links a:last-of-type {
       padding-left: 0; }
+  .section.prefooter .social-links {
+    padding: 0 !important; }
   .section.prefooter .social-links .social-links-container {
-    width: 100%; }
+    width: 100%;
+    justify-content: space-around; }
     .section.prefooter .social-links .social-links-container a {
       padding-right: 5px !important; }
-      .section.prefooter .social-links .social-links-container a img {
-        max-width: 20px !important; } }
+      .section.prefooter .social-links .social-links-container a span {
+        display: none; } }
 
 @media (max-width: 768px) {
   .section.header .header-description {
@@ -538,9 +577,7 @@ img {
   .section.prefooter .more-info-links {
     font-size: 10px; }
   .section.prefooter .social-links-container a {
-    padding-right: 10px !important; }
-    .section.prefooter .social-links-container a img {
-      max-width: 20px !important; } }
+    padding-right: 10px !important; } }
 
 @media (max-width: 992px) {
   .section.showcase .showcase-titles-container {
@@ -551,9 +588,7 @@ img {
     text-align: center; }
   .section.prefooter .social-media-section .happy-to-connect {
     font-size: 18px;
-    line-height: 30px; }
-  .section.prefooter .social-links-container img {
-    max-width: 28px; } }
+    line-height: 30px; } }
 
 @media (max-width: 1200px) {
   .section.header .reader-review {
