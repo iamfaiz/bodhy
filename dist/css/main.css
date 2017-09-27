@@ -481,7 +481,7 @@ img {
         border-radius: 0; }
         .section.prefooter .newsletter-box .newsletter-box-inner .newsletter-input-group input:focus {
           border-color: rgba(0, 0, 0, 0.15); }
-      .section.prefooter .newsletter-box .newsletter-box-inner .newsletter-input-group button {
+      .section.prefooter .newsletter-box .newsletter-box-inner .newsletter-input-group input[type=submit] {
         border-radius: 0;
         background: #c2727d; }
   .section.prefooter .social-media-section {
