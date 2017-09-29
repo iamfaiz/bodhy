@@ -6,8 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Bodhy - The Bliss Of Being</title>
 
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-<link rel="stylesheet" href="./css/main.css"></head>
+<link rel="stylesheet" href="./css/main.css">
+</head>
 <body>
 	<!-- Sections Start -->
 <header class="section header" id="home">
@@ -58,8 +58,30 @@
     </div>
 </header>
 <section class="section video">
-    <img src="./img/video.png" alt="Video" class="video-thumbnail">
+    <a href="#" data-toggle="modal" data-target="#video-modal">
+        <img src="./img/video.png" alt="Video" class="video-thumbnail">
+    </a>
+
+    <!-- Modal -->
+    <div class="modal fade" id="video-modal" tabindex="-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <!-- <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div> -->
+
+                <div class="modal-body" id="youtube-video-identifier">
+                    <iframe height="600" class="embed-responsive embed-responsive-16by9" src="//www.youtube.com/embed/7wtfhZwyrcc?showinfo=0&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
 <section class="section showcase" id="books">
     <div class="container">
         <div class="row">
@@ -330,13 +352,24 @@
                         <div class="row">
                             <div class="col-md-12">
 
-                                <div class="input-group newsletter-input-group">
-                                    <input type="text" class="form-control">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-secondary" type="button">Go!</button>
-                                    </span>
-                                </div>
+                                
 
+
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+    <form action="//ranafaiz.us16.list-manage.com/subscribe/post?u=af4cb3039b65b58c235948282&amp;id=2adef99b8c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+        <div class="input-group newsletter-input-group">
+            <input type="text" class="form-control" type="email" value="" name="EMAIL" id="mce-EMAIL">
+            <span class="input-group-btn">
+                <input type="submit" class="btn btn-secondary" value="Go!" type="button" id="mc-embedded-subscribe">
+            </span>
+        </div>
+
+    </form>
+</div>
+
+<!--End mc_embed_signup-->
                             </div>
                         </div>
                     </div>
@@ -403,55 +436,7 @@
     </div>
 </footer>	<!-- Sections End -->
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-  crossorigin="anonymous"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-  crossorigin="anonymous"></script>
 
-<script>
-  // Select all links with hashes
-  $('a[href*="#"]')
-    // Remove links that don't actually link to anything
-    .not('[href="#"]')
-    .not('[href="#0"]')
-    .click(function (event) {
-      // On-page links
-      if (
-        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
-        location.hostname == this.hostname
-      ) {
-        // Figure out element to scroll to
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        // Does a scroll target exist?
-        if (target.length) {
-          // Only prevent default if animation is actually gonna happen
-          event.preventDefault();
-          $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 1000, function () {
-            // Callback after animation
-            // Must change focus!
-            var $target = $(target);
-            $target.focus();
-            if ($target.is(":focus")) { // Checking if the target was focused
-              return false;
-            } else {
-              $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
-              $target.focus(); // Set focus again
-            };
-          });
-        }
-      }
-    });
-</script>
-
-<script>
-  $('.menu-toggler').on('click', function () {
-    $('.nav').slideToggle();
-  });
-</script></body>
+<script src="./js/main.js"></script>
+</body>
 </html>
