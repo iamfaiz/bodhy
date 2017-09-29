@@ -1,16 +1,14 @@
 .section.about {
     // height: 900px;
+    background-image: url(./../img/about.png);
+    background-size: cover;
     overflow: visible;
     background-color: $dark-gray;
     color: white;
 
 
     .container {
-        background-image: url(./../img/baba.png);
         overflow: hidden;
-        background-size: cover;
-        margin-top: -80px;
-        padding-top: 20px;
     }
 
     .about-content {
@@ -28,7 +26,7 @@
         }
 
         .about-intro-title {
-            color: $lighter-gray;
+            color: $light-gray;
             font-family: $league-spartan-stack;
             border-bottom: 1px solid $light-gray;
             font-size: 18px;
@@ -40,6 +38,7 @@
         }
 
         .about-name {
+            color: $light-gray;
             font-family: $cormorant-regular-stack;
             font-size: 40px;
             letter-spacing: 0.01em;
@@ -48,6 +47,7 @@
         }
 
         .about-title {
+            color: $light-gray;
             font-family: $cormorant-regular-stack;
             font-size: 14px;
             letter-spacing: 0.29em;
@@ -62,15 +62,15 @@
         .about-description {
             font-family: $cormorant-regular-stack;
             color: $light-gray;
-            font-size: 24px;
+            font-size: 22px;
             text-align: right;
-            line-height: 34px;
+            line-height: 32px;
         }
 
         .about-description-inspiration {
             font-family: $cormorant-regular-stack;
             color: $light-gray;
-            font-size: 14px;
+            font-size: 14px !important;
             text-align: right;
             line-height: 34px;
         }

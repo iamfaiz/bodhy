@@ -5943,15 +5943,13 @@ img {
       text-align: center; }
 
 .section.about {
+  background-image: url(./../img/about.png);
+  background-size: cover;
   overflow: visible;
   background-color: #5b5b5b;
   color: white; }
   .section.about .container {
-    background-image: url(./../img/baba.png);
-    overflow: hidden;
-    background-size: cover;
-    margin-top: -80px;
-    padding-top: 20px; }
+    overflow: hidden; }
   .section.about .about-content {
     float: right;
     padding-right: 20px; }
@@ -5962,7 +5960,7 @@ img {
       .section.about .about-content .about-headings-group .about-intro-title {
         display: inline-block; }
     .section.about .about-content .about-intro-title {
-      color: #909090;
+      color: white;
       font-family: LeagueSpartanBold, sans-serif;
       border-bottom: 1px solid white;
       font-size: 18px;
@@ -5972,12 +5970,14 @@ img {
       padding: 15px 45px;
       text-align: center; }
     .section.about .about-content .about-name {
+      color: white;
       font-family: CormorantRegular, sans-serif;
       font-size: 40px;
       letter-spacing: 0.01em;
       text-transform: uppercase;
       text-align: center; }
     .section.about .about-content .about-title {
+      color: white;
       font-family: CormorantRegular, sans-serif;
       font-size: 14px;
       letter-spacing: 0.29em;
@@ -5990,13 +5990,13 @@ img {
     .section.about .about-content .about-description {
       font-family: CormorantRegular, sans-serif;
       color: white;
-      font-size: 24px;
+      font-size: 22px;
       text-align: right;
-      line-height: 34px; }
+      line-height: 32px; }
     .section.about .about-content .about-description-inspiration {
       font-family: CormorantRegular, sans-serif;
       color: white;
-      font-size: 14px;
+      font-size: 14px !important;
       text-align: right;
       line-height: 34px; }
 
