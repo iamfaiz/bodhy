@@ -2,6 +2,18 @@
     background: $light-gray;
     padding-top: 100px;
 
+    .read-device-ribbon {
+        position: relative;
+        z-index: 1;
+        width: 18.3%;
+    }
+
+    .showcase-devices {
+        position: relative;
+        top: -22px;
+        z-index: 0;
+    }
+
     .showcase-titles-container {
         position: relative;
         left: -115px;
@@ -16,7 +28,7 @@
     .showcase-title {
         text-align: center;
         font-size: 73.99px;
-        color: $red;
+        color: #edb482;
         text-transform: uppercase;
         font-family: $league-spartan-stack;
         letter-spacing: -0.02em;
@@ -49,7 +61,7 @@
     .showcase-description {
         font-size: 24px;
         color: $lighter-gray;
-        font-family: $crete-round-stack;
+        font-family: $trocchi-regular-stack;
         letter-spacing: 0.034em;
     }
 
@@ -61,18 +73,19 @@
     }
 
     .buy-now {
-        color: $lighter-gray;
+        color: $dark-gray;
         text-transform: uppercase;
-        margin-top: 10px;
+        margin-top: 20px;
         font-family: $lato-black-stack;
+        font-weight: bold;
         font-size: 14px;
         margin-left: 8px;
     }
 
     .conclusive-title {
-        margin-top: 55px;
+        margin: 70px 0 55px 0;
         text-align: center;
-        color: $red;
+        color: $dark-gray;
         font-size: 28px;
         font-family: $crete-round-stack;
     }

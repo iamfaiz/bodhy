@@ -1,10 +1,29 @@
 .section.video {
     height: auto;
-    padding: 20px 0;
+    padding: 0;
     background-color: $dark-gray;
+    position: relative;
 
     .video-thumbnail {
         max-width: 100%;
         width: 100%;
+    }
+
+    &:after {
+        content: '';
+        width: 105px;
+        height: 46px;
+        position: absolute;
+        right: 62px;
+        bottom: 20px;
+        background: url(./../img/video-play-icon.png);
+        cursor: default;
+    }
+    
+    .youtube-iframe-main-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        visibility: hidden;
     }
 }

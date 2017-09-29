@@ -9,9 +9,7 @@
 @import url("//fonts.googleapis.com/css?family=Fira+Sans:500");
 @import url("//fonts.googleapis.com/css?family=Open+Sans");
 @import url("//fonts.googleapis.com/css?family=Lato:300,900");
-<<<<<<< HEAD
 @import url("//fonts.googleapis.com/css?family=Fjalla+One");
-=======
 @media print {
   *,
   *::before,
@@ -5560,7 +5558,6 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
->>>>>>> 7289a8c9a0ffef7c9678d6c47836af6ef15c8d39
 @font-face {
   font-family: CormorantRegular;
   src: url(./../fonts/comorant/Cormorant-Regular.otf); }
@@ -5693,15 +5690,38 @@ img {
 
 .section.video {
   height: auto;
-  padding: 20px 0;
-  background-color: #5b5b5b; }
+  padding: 0;
+  background-color: #5b5b5b;
+  position: relative; }
   .section.video .video-thumbnail {
     max-width: 100%;
     width: 100%; }
+  .section.video:after {
+    content: '';
+    width: 105px;
+    height: 46px;
+    position: absolute;
+    right: 62px;
+    bottom: 20px;
+    background: url(./../img/video-play-icon.png);
+    cursor: default; }
+  .section.video .youtube-iframe-main-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden; }
 
 .section.showcase {
   background: white;
   padding-top: 100px; }
+  .section.showcase .read-device-ribbon {
+    position: relative;
+    z-index: 1;
+    width: 18.3%; }
+  .section.showcase .showcase-devices {
+    position: relative;
+    top: -22px;
+    z-index: 0; }
   .section.showcase .showcase-titles-container {
     position: relative;
     left: -115px; }
@@ -5712,7 +5732,7 @@ img {
   .section.showcase .showcase-title {
     text-align: center;
     font-size: 73.99px;
-    color: #ba2120;
+    color: #edb482;
     text-transform: uppercase;
     font-family: LeagueSpartanBold, sans-serif;
     letter-spacing: -0.02em;
@@ -5737,7 +5757,7 @@ img {
   .section.showcase .showcase-description {
     font-size: 24px;
     color: #909090;
-    font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif;
+    font-family: TrocchiRegular, Georgia, "Times New Roman", Times, serif;
     letter-spacing: 0.034em; }
   .section.showcase .showcase-price {
     margin-top: 60px;
@@ -5745,16 +5765,17 @@ img {
     font-size: 34px;
     color: #5b5b5b; }
   .section.showcase .buy-now {
-    color: #909090;
+    color: #5b5b5b;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-top: 20px;
     font-family: Lato, sans-serif;
+    font-weight: bold;
     font-size: 14px;
     margin-left: 8px; }
   .section.showcase .conclusive-title {
-    margin-top: 55px;
+    margin: 70px 0 55px 0;
     text-align: center;
-    color: #ba2120;
+    color: #5b5b5b;
     font-size: 28px;
     font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif; }
 
