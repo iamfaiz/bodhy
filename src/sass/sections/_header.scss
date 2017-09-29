@@ -4,12 +4,13 @@
     text-align: center;
 
     .header-description {
-        font-size: 14px;
+        font-size: 16px;
         text-transform: uppercase;
-        letter-spacing: 0.22em;
         text-align: center;
-        font-family: $oswald-stack;
+        font-family: $fjalla-one;
         color: $dark-gray;
+        line-height: 27px;
+        letter-spacing: 0.24em;
     }
 
     .menu-toggler {
@@ -19,18 +20,25 @@
         font-family: $lato-black-stack;
     }
 
+    .logo {
+        img {
+            width: 140;
+            height: 138;
+        }
+    }
+
     .tagline {
-        font-size: 12px;
+        font-size: 15px;
         text-transform: uppercase;
-        font-family: $lato-black-stack;
-        font-weight: 300;
-        color: black;
-        margin-top: -5px;
+        font-family: $league-spartan-stack;
+        color: $new-gray;
+        margin-top: 7px;
+        margin-bottom: 20px;
     }
 
     .nav {
         text-align: center;
-        font-family: $cormorant-infant-stack;
+        font-family: $playfair-display-stack;
         font-size: 24px;
 
         .nav-links {
@@ -43,7 +51,7 @@
 
                 a {
                     color: $red;
-                    padding: 0 20px;
+                    padding: 0 15px;
                     border-bottom: none;
                 }
 
@@ -65,10 +73,11 @@
     }
 
     .reader-review {
-        width: 507px;
-        height: 196;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.3);
+        width: 461px;
+        max-width: 100%;
         padding: 20px 0;
-        background-image: url('./../img/reviews-background.png');
         max-width: 100%;
 
         .reader-review-heading {
@@ -83,16 +92,17 @@
             font-family: $oswald-stack;
             position: relative;
 
-            &:after {
-                content: '';
-                width: 20px;
-                height: 5px;
-                background: url(./../img/background-tilde.png);
-                background-size: 100% 100%;
-                position: absolute;
-                bottom: -3px;
-                left: 45%;
-            }
+            // Uncomment this for the tilde below the underline.
+            // &:after {
+            //     content: '';
+            //     width: 20px;
+            //     height: 5px;
+            //     background: url(./../img/background-tilde.png);
+            //     background-size: 100% 100%;
+            //     position: absolute;
+            //     bottom: -3px;
+            //     left: 45%;
+            // }
         }
 
         .reader-review-comment {
