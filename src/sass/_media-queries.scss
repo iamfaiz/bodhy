@@ -22,6 +22,8 @@
     }
 
     .section.prefooter {
+
+
         .more-info-links {
             a { 
                 display: block;
@@ -129,7 +131,8 @@
 
         }
 
-        .prefooter {
+        .section.prefooter {
+
             .social-links {
                 .social-links-container {
                     a {
@@ -146,6 +149,9 @@
     }
 
     .section.prefooter {
+        .blog-post {
+            border-right: none;
+        }
 
         .more-info-links {
             font-size: 10px;
