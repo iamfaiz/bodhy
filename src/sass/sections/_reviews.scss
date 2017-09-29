@@ -8,10 +8,19 @@
 
         .reviews-aside-title {
             text-transform: uppercase;
-            color: $red;
+            color: $another-gray;
             font-size: 24px;
             font-family: $league-spartan-stack;
             line-height: 25px;
+
+            span {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+
+        .reviews-aside-title.dark {
+            color: $dark-gray;
         }
 
         .reviews-aside-subtitle {
@@ -21,7 +30,7 @@
         }
 
         .reviews-aside-note {
-            color: $red;
+            color: $review-aside-note-gray;
             text-transform: uppercase;
             font-size: 11px;
             font-family: $league-spartan-stack;
@@ -34,41 +43,101 @@
             text-align: right;
             display: inline-block;
             font-family: $trocchi-regular-stack;
-            color: $lighter-gray;
+            color: $steps-gray;
             padding: 0;
+            margin-bottom: 30px;
 
             li {
                 margin-top: 10px;
-                min-height: 100px;
+                min-height: 65px;
                 width: 160px;
                 display: flex;
-                justify-content: center;
+                flex-direction: column;
                 align-items: center;
+                justify-content: center;
                 background-repeat: no-repeat;
                 text-align: center;
+
+                span {
+                    margin: -5px 0;
+                }
             }
         }
 
         .reviews-aside-steps > li:nth-child(1) {
             background-image: url(./../img/step-one.png);
-            background-position: 70% 30%;
+            background-position: 100% 45%;
+            align-items: flex-end;
+
+            span {
+                position: relative;
+                top: 8px;
+            }
+
+            span:nth-child(1) {
+                right: 22px;
+            }
+
+            span:nth-child(2) {
+                right: 9px;
+            }
         }
 
         .reviews-aside-steps > li:nth-child(2) {
             background-image: url(./../img/step-two.png);
-            background-position: 15% 60%;
+            background-position: 0% 45%;
+            align-items: flex-start;
+            
+            span {
+                position: relative;
+                top: -5px;
+            }
+
+            span:nth-child(1) {
+                left: 44px;
+            }
+
+            span:nth-child(2) {
+                left: 40px;
+            }
+
+            span:nth-child(3) {
+                left: 48px;
+            }
         }
 
         .reviews-aside-steps > li:nth-child(3) {
             background-image: url(./../img/step-three.png);
-            background-position: 90% 18%;
+            background-position: 100% 45%;
+            align-items: flex-end;
+
+            span {
+                position: relative;
+                top: 7px;
+            }
+
+            span:nth-child(1) {
+                right: 46px;
+            }
+
+            span:nth-child(2) {
+                right: 35px;
+            }
+
+            span:nth-child(3) {
+                right: 57px;
+            }
+
+            span:nth-child(4) {
+                right: 32px;
+            }
         }
     }
 
     .reviews-main {
         .reviews-main-title {
             text-align: center;
-            color: $lighter-gray;
+            color: $golden;
             text-transform: uppercase;
             font-size: 47px;
             font-family: $league-spartan-stack;

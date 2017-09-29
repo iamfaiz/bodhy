@@ -5586,9 +5586,8 @@ body {
   color: #5b5b5b; }
 
 a {
-  color: #5b5b5b;
-  padding-bottom: 1px;
-  border-bottom: 1px solid #ba2120; }
+  color: #edb482;
+  padding-bottom: 1px; }
   a:hover {
     color: #5b5b5b;
     text-decoration: none; }
@@ -5787,16 +5786,21 @@ img {
     text-align: right; }
     .section.reviews .reviews-aside .reviews-aside-title {
       text-transform: uppercase;
-      color: #ba2120;
+      color: #a6a6a6;
       font-size: 24px;
       font-family: LeagueSpartanBold, sans-serif;
       line-height: 25px; }
+      .section.reviews .reviews-aside .reviews-aside-title span {
+        display: block;
+        margin: 5px 0; }
+    .section.reviews .reviews-aside .reviews-aside-title.dark {
+      color: #5b5b5b; }
     .section.reviews .reviews-aside .reviews-aside-subtitle {
       color: #5b5b5b;
       font-size: 20px;
       font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif; }
     .section.reviews .reviews-aside .reviews-aside-note {
-      color: #ba2120;
+      color: #b2afaf;
       text-transform: uppercase;
       font-size: 11px;
       font-family: LeagueSpartanBold, sans-serif;
@@ -5807,29 +5811,63 @@ img {
       text-align: right;
       display: inline-block;
       font-family: TrocchiRegular, Georgia, "Times New Roman", Times, serif;
-      color: #909090;
-      padding: 0; }
+      color: #858484;
+      padding: 0;
+      margin-bottom: 30px; }
       .section.reviews .reviews-aside .reviews-aside-steps li {
         margin-top: 10px;
-        min-height: 100px;
+        min-height: 65px;
         width: 160px;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
         background-repeat: no-repeat;
         text-align: center; }
+        .section.reviews .reviews-aside .reviews-aside-steps li span {
+          margin: -5px 0; }
     .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(1) {
       background-image: url(./../img/step-one.png);
-      background-position: 70% 30%; }
+      background-position: 100% 45%;
+      align-items: flex-end; }
+      .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(1) span {
+        position: relative;
+        top: 8px; }
+      .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(1) span:nth-child(1) {
+        right: 22px; }
+      .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(1) span:nth-child(2) {
+        right: 9px; }
     .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(2) {
       background-image: url(./../img/step-two.png);
-      background-position: 15% 60%; }
+      background-position: 0% 45%;
+      align-items: flex-start; }
+      .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(2) span {
+        position: relative;
+        top: -5px; }
+      .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(2) span:nth-child(1) {
+        left: 44px; }
+      .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(2) span:nth-child(2) {
+        left: 40px; }
+      .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(2) span:nth-child(3) {
+        left: 48px; }
     .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(3) {
       background-image: url(./../img/step-three.png);
-      background-position: 90% 18%; }
+      background-position: 100% 45%;
+      align-items: flex-end; }
+      .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(3) span {
+        position: relative;
+        top: 7px; }
+      .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(3) span:nth-child(1) {
+        right: 46px; }
+      .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(3) span:nth-child(2) {
+        right: 35px; }
+      .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(3) span:nth-child(3) {
+        right: 57px; }
+      .section.reviews .reviews-aside .reviews-aside-steps > li:nth-child(3) span:nth-child(4) {
+        right: 32px; }
   .section.reviews .reviews-main .reviews-main-title {
     text-align: center;
-    color: #909090;
+    color: #edb482;
     text-transform: uppercase;
     font-size: 47px;
     font-family: LeagueSpartanBold, sans-serif;
