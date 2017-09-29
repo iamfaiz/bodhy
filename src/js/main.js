@@ -20,4 +20,10 @@ require('./responsive-navigation');
 window.callPlayer = require('./call-player');
 
 // Handle the play and pause of the video on the page based on the modal's status.
-require('./youtube-video');
+// require('./youtube-video');
+
+// Handle the instagram video effect for the video.
+require('./youtube-instagram-effect');
+
+// To make the youtube video responsive.
+require('./youtube-responsive');
