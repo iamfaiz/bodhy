@@ -6129,7 +6129,8 @@ img {
     font-size: 14px;
     text-transform: uppercase;
     color: #c0c0c0;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    margin-top: 10px; }
   .section.footer .footer-text {
     font-family: "Fira Sans", sans-serif;
     font-size: 12px;
