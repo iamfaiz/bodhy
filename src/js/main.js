@@ -27,3 +27,6 @@ require('./youtube-instagram-effect');
 
 // To make the youtube video responsive.
 require('./youtube-responsive');
+
+// Back to top button functionality.
+require('./back-to-top');
