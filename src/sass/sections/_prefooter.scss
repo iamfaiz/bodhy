@@ -14,11 +14,11 @@
         a {
             border-bottom: none;
             padding: 5px 0;
-            color: $red;
+            color: $light-red;
 
             &:first-of-type {
                 padding-right: 35px;
-                border-right: 2px solid $red;
+                border-right: 2px solid black;
             }
 
             &:last-of-type {
@@ -28,13 +28,16 @@
     }
 
     .blog-post {
+        border-right: 14px solid $prefooter-border-gray;
+        padding-top: 32px;
+        padding-bottom: 110px;
 
         .post-category {
             font-family: $league-spartan-stack;
             font-size: 14px;
             text-transform: uppercase;
             line-height: 16px;
-            color: $red;
+            color: $light-red;
         }
 
         .post-title {
@@ -46,7 +49,7 @@
         }
 
         .post-date {
-            color: $red;
+            color: $light-red;
             font-family: $league-spartan-stack;
             font-size: 10px;
             text-transform: uppercase;
@@ -69,7 +72,7 @@
             text-transform: uppercase;
 
             a {
-                color: $red;
+                color: $light-red;
                 border-bottom: none;
             }
         }
@@ -86,20 +89,20 @@
             font-size: 17.9px;
             padding: 15px 50px;
             color: $lighter-gray;
-            border-bottom: 2px solid $lighter-gray;
+            border-bottom: 1px solid $lighter-gray;
             display: inline-block;
             position: relative;
 
-            &:after {
-                content: '';
-                width: 35px;
-                height: 10px;
-                background: url(./../img/background-tilde-gray.png);
-                background-size: 100% 100%;
-                position: absolute;
-                bottom: -6px;
-                left: 44%;
-            }
+            // &:after {
+            //     content: '';
+            //     width: 35px;
+            //     height: 10px;
+            //     background: url(./../img/background-tilde-gray.png);
+            //     background-size: 100% 100%;
+            //     position: absolute;
+            //     bottom: -6px;
+            //     left: 44%;
+            // }
         }
 
     }
@@ -112,11 +115,11 @@
         text-align: center;
         line-height: 29px;
         font-size: 16px;
-        font-family: $open-sans-stack;
+        font-family: $crete-round-stack;
     }
 
     .newsletter-box {
-        background: $red;
+        background: $light-red;
         padding: 40px;
 
 
@@ -144,7 +147,7 @@
 
                 input[type=submit] {
                     border-radius: 0;
-                    background: $red;
+                    background: $light-red;
                 }
             }
         }
@@ -158,37 +161,31 @@
             font-family: $crete-round-stack;
             font-size: 24px;
             line-height: 16px;
-            color: $lighter-gray;
+            color: $dark-gray;
         }
 
         .social-links {
+            display: flex;
+            justify-content: center;
             margin-top: 30px;
-            text-align: center;
-            padding: 0 150px;
 
             .social-links-container {
-                text-align: center;
-                padding: 10px;
-                background-color: $dark-gray;
-                background-color: #ebebeb;
+                background: $social-links-bg-color-gray;
+                padding: 15px 10px;
                 display: flex;
-                justify-content: space-around;
+                text-align: center;
+                max-width: 100%;
 
                 a {
                     padding-right: 50px;
-                    border-bottom: none;
-                    font-family: $crete-round-stack;
-                    color: $lighter-gray;
-                    text-transform: uppercase;
-                    display: flex;
-                    flex-direction: column;
+
 
                     &:last-of-type {
                         padding-right: 0;
                     }
 
                     img {
-                        padding-bottom: 10px;
+                        max-width: 65px;
                     }
                 }
             }

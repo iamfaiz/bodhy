@@ -6014,45 +6014,49 @@ img {
     .section.prefooter .more-info-links a {
       border-bottom: none;
       padding: 5px 0;
-      color: #ba2120; }
+      color: #c06d7a; }
       .section.prefooter .more-info-links a:first-of-type {
         padding-right: 35px;
-        border-right: 2px solid #ba2120; }
+        border-right: 2px solid black; }
       .section.prefooter .more-info-links a:last-of-type {
         padding-left: 35px; }
-  .section.prefooter .blog-post .post-category {
-    font-family: LeagueSpartanBold, sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
-    line-height: 16px;
-    color: #ba2120; }
-  .section.prefooter .blog-post .post-title {
-    font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
-    font-size: 36px;
-    letter-spacing: -0.045em;
-    line-height: 37px;
-    margin-top: 10px; }
-  .section.prefooter .blog-post .post-date {
-    color: #ba2120;
-    font-family: LeagueSpartanBold, sans-serif;
-    font-size: 10px;
-    text-transform: uppercase;
-    line-height: 16px;
-    margin-top: 10px; }
-  .section.prefooter .blog-post .post-exerpt {
-    font-family: CormorantRegular, sans-serif;
-    font-size: 24px;
-    line-height: 34px;
-    margin-top: 10px; }
-  .section.prefooter .blog-post .post-readmore {
-    font-family: LeagueSpartanBold, sans-serif;
-    font-size: 12px;
-    line-height: 16px;
-    margin-top: 10px;
-    text-transform: uppercase; }
-    .section.prefooter .blog-post .post-readmore a {
-      color: #ba2120;
-      border-bottom: none; }
+  .section.prefooter .blog-post {
+    border-right: 14px solid #cfcfcf;
+    padding-top: 32px;
+    padding-bottom: 110px; }
+    .section.prefooter .blog-post .post-category {
+      font-family: LeagueSpartanBold, sans-serif;
+      font-size: 14px;
+      text-transform: uppercase;
+      line-height: 16px;
+      color: #c06d7a; }
+    .section.prefooter .blog-post .post-title {
+      font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+      font-size: 36px;
+      letter-spacing: -0.045em;
+      line-height: 37px;
+      margin-top: 10px; }
+    .section.prefooter .blog-post .post-date {
+      color: #c06d7a;
+      font-family: LeagueSpartanBold, sans-serif;
+      font-size: 10px;
+      text-transform: uppercase;
+      line-height: 16px;
+      margin-top: 10px; }
+    .section.prefooter .blog-post .post-exerpt {
+      font-family: CormorantRegular, sans-serif;
+      font-size: 24px;
+      line-height: 34px;
+      margin-top: 10px; }
+    .section.prefooter .blog-post .post-readmore {
+      font-family: LeagueSpartanBold, sans-serif;
+      font-size: 12px;
+      line-height: 16px;
+      margin-top: 10px;
+      text-transform: uppercase; }
+      .section.prefooter .blog-post .post-readmore a {
+        color: #c06d7a;
+        border-bottom: none; }
   .section.prefooter .prefooter-heading {
     text-align: center;
     margin-bottom: 50px; }
@@ -6063,27 +6067,18 @@ img {
       font-size: 17.9px;
       padding: 15px 50px;
       color: #909090;
-      border-bottom: 2px solid #909090;
+      border-bottom: 1px solid #909090;
       display: inline-block;
       position: relative; }
-      .section.prefooter .prefooter-heading .prefooter-heading-inner:after {
-        content: '';
-        width: 35px;
-        height: 10px;
-        background: url(./../img/background-tilde-gray.png);
-        background-size: 100% 100%;
-        position: absolute;
-        bottom: -6px;
-        left: 44%; }
   .section.prefooter .newsletter-title {
     font-family: "Open Sans", sans-serif; }
   .section.prefooter .newsletter-description {
     text-align: center;
     line-height: 29px;
     font-size: 16px;
-    font-family: "Open Sans", sans-serif; }
+    font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif; }
   .section.prefooter .newsletter-box {
-    background: #ba2120;
+    background: #c06d7a;
     padding: 40px; }
     .section.prefooter .newsletter-box .newsletter-box-inner {
       background: white;
@@ -6099,7 +6094,7 @@ img {
           border-color: rgba(0, 0, 0, 0.15); }
       .section.prefooter .newsletter-box .newsletter-box-inner .newsletter-input-group input[type=submit] {
         border-radius: 0;
-        background: #ba2120; }
+        background: #c06d7a; }
   .section.prefooter .social-media-section {
     margin: 50px 0; }
     .section.prefooter .social-media-section .happy-to-connect {
@@ -6107,30 +6102,23 @@ img {
       font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif;
       font-size: 24px;
       line-height: 16px;
-      color: #909090; }
+      color: #5b5b5b; }
     .section.prefooter .social-media-section .social-links {
-      margin-top: 30px;
-      text-align: center;
-      padding: 0 150px; }
+      display: flex;
+      justify-content: center;
+      margin-top: 30px; }
       .section.prefooter .social-media-section .social-links .social-links-container {
-        text-align: center;
-        padding: 10px;
-        background-color: #5b5b5b;
-        background-color: #ebebeb;
+        background: #ebebeb;
+        padding: 15px 10px;
         display: flex;
-        justify-content: space-around; }
+        text-align: center;
+        max-width: 100%; }
         .section.prefooter .social-media-section .social-links .social-links-container a {
-          padding-right: 50px;
-          border-bottom: none;
-          font-family: CreteRoundRegular, Georgia, "Times New Roman", Times, serif;
-          color: #909090;
-          text-transform: uppercase;
-          display: flex;
-          flex-direction: column; }
+          padding-right: 50px; }
           .section.prefooter .social-media-section .social-links .social-links-container a:last-of-type {
             padding-right: 0; }
           .section.prefooter .social-media-section .social-links .social-links-container a img {
-            padding-bottom: 10px; }
+            max-width: 65px; }
 
 .section.footer {
   background-color: white;
@@ -6169,15 +6157,12 @@ img {
       margin-bottom: 10px; }
     .section.prefooter .more-info-links a:last-of-type {
       padding-left: 0; }
-  .section.prefooter .social-links {
-    padding: 0 !important; }
   .section.prefooter .social-links .social-links-container {
-    width: 100%;
-    justify-content: space-around; }
+    background: transparent !important; }
     .section.prefooter .social-links .social-links-container a {
-      padding-right: 5px !important; }
-      .section.prefooter .social-links .social-links-container a span {
-        display: none; } }
+      padding-right: 10px !important; }
+      .section.prefooter .social-links .social-links-container a img {
+        max-width: 30px !important; } }
 
 @media (max-width: 768px) {
   .section.header .header-description {
@@ -6199,7 +6184,7 @@ img {
     .section.reviews .reviews-aside .reviews-aside-steps {
       list-style-type: decimal; }
       .section.reviews .reviews-aside .reviews-aside-steps li {
-        background-image: none !important;
+        background-image: none;
         min-height: auto; }
   .section.reviews .reviews-main {
     margin-top: 30px; }
@@ -6210,10 +6195,18 @@ img {
       margin-bottom: 10px; }
   .section.reviews .buying-info .buying-info-details:before, .section.reviews .buying-info .buying-info-details:after {
     content: ''; }
+  .section.reviews .prefooter .social-links .social-links-container a {
+    padding-right: 20px; }
+    .section.reviews .prefooter .social-links .social-links-container a img {
+      max-width: 10px; }
   .section.prefooter .more-info-links {
     font-size: 10px; }
-  .section.prefooter .social-links-container a {
-    padding-right: 10px !important; } }
+  .section.prefooter .social-links-container {
+    padding: 15px 0px; }
+    .section.prefooter .social-links-container a {
+      padding-right: 30px !important; }
+      .section.prefooter .social-links-container a img {
+        max-width: 20px !important; } }
 
 @media (max-width: 992px) {
   .section.showcase .showcase-titles-container {
@@ -6224,4 +6217,8 @@ img {
     text-align: center; }
   .section.prefooter .social-media-section .happy-to-connect {
     font-size: 18px;
-    line-height: 30px; } }
+    line-height: 30px; }
+  .section.prefooter .social-links a {
+    padding-right: 30px !important; }
+    .section.prefooter .social-links a img {
+      max-width: 40px !important; } }
