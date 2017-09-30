@@ -31,5 +31,5 @@ require('./youtube-responsive');
 // Back to top button functionality.
 require('./back-to-top');
 
-// Initialize booststrap's tooltip.
-require('./init-tooltip');
+// Initialize booststrap's tooltip and popover.
+require('./init-tooltip-and-popover');
