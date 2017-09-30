@@ -1,10 +1,16 @@
+var $window = $(window);
+var $videoSection = $('.section.video');
+var playing = false;
+var $youtubeIframeMainVideo = $('.youtube-iframe-main-video');
+
 function playVideo()
 {
     callPlayer("youtube-iframe-container", function () {
         callPlayer("youtube-iframe-container", "playVideo");
     });
 
-    $('.youtube-iframe-main-video').css('visibility', 'visible');
+    $youtubeIframeMainVideo.css('visibility', 'visible');
+    $videoSection.addClass('playing');
 }
 
 function pauseVideo()
@@ -13,12 +19,10 @@ function pauseVideo()
         callPlayer("youtube-iframe-container", "pauseVideo");
     });
 
-    $('.youtube-iframe-main-video').css('visibility', 'hidden');
+    $youtubeIframeMainVideo.css('visibility', 'hidden');
+    $videoSection.removeClass('playing');
 }
 
-var $window = $(window);
-var $videoSection = $('.section.video');
-var playing = false;
 
 $window.on('scroll', function () {
     if (($window.scrollTop() > ($videoSection.offset().top-100)) && ($window.scrollTop() < $videoSection.offset().top+$videoSection.height()) ) {
