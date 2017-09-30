@@ -1,10 +1,79 @@
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
+    .section.header {
+        .menu-toggler {
+            margin-bottom: 0;
+        }
+
+        .reader-review {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .reader-review-comment {
+            font-size: 18px;
+        }
+
+        .reader-review-author {
+            font-size: .7em;
+        }
+
+        .reader-review-author-title {
+            font-size: 9px;
+        }
+    }
+
+    .section.showcase {
+        .showcase-title {
+            font-size: 53.99px;
+        }
+
+        .showcase-subtitle {
+            font-size: 17px;
+        }
+
+        .showcase-description {
+            font-size: 17px;
+            margin-bottom: -18px;
+        }
+
+        .showcase-price {
+            font-size: 18px;
+        }
+    }
+
     .section.reviews {
+        .reviews-main-title {
+            font-size: 28px !important;
+        }
+
+        .reviews-main-subtitle {
+            font-size: 18px !important;
+        }
+
         .buying-info-links {
             a {
                 font-size: 18px;
             }
+        }
+
+        .buying-info-launch-price {
+            font-size: 10px !important;
+        }
+    }
+
+    .section.about {
+        .about-title {
+            padding: 18px 57px !important;
+            letter-spacing: 1px !important;
+        }
+
+        .about-intro-title {
+            font-size: 13px !important;
+        }
+
+        .about-name {
+            font-size: 25px !important;
         }
     }
 
