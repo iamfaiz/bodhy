@@ -1,18 +1,5 @@
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
-
-    .section.showcase {
-        .showcase-title {
-            font-size: 50px;
-            
-            span {
-                font-size: 30px !important;
-                left: -1px;
-                top: -25px;
-            }
-        }
-    }
-
     .section.reviews {
         .buying-info-links {
             a {
@@ -87,6 +74,8 @@
 
         }
     }
+
+
 
     .section.reviews {
 
@@ -174,19 +163,31 @@
 
 // Large devices (desktops, 992px and up)
 @media (max-width: 992px) {
+    .conclusive-title {
+        margin-bottom: 0 !important;
+    }
 
-    .section.showcase {
+    .reviews-aside {
+        text-align: center !important;
+        margin-bottom: 20px;
 
-        .showcase-titles-container {
-            position: static;
-            margin-top: 30px;
+        br {
+            display: none;
         }
 
-        .showcase-descriptions-container {
-            position: static;
-            text-align: center;
-        }
+        .reviews-aside-steps {
+            list-style-type: decimal;
 
+
+            li {
+                background-image: none;
+                min-height: auto;
+            }
+        }
+    }
+
+    .reviews-main {
+        margin-top: 30px;
     }
 
     .section.prefooter {
@@ -210,4 +211,16 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (max-width: 1200px) {
+    .section.showcase {
+        .showcase-titles-container {
+            position: static;
+            margin-top: 30px;
+        }
+
+        .showcase-descriptions-container {
+            position: static;
+            text-align: center;
+        }
+
+    }
 }

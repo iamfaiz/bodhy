@@ -5716,7 +5716,8 @@ img {
   .section.showcase .read-device-ribbon {
     position: relative;
     z-index: 1;
-    width: 18.3%; }
+    width: 18.3%;
+    display: block; }
   .section.showcase .showcase-devices {
     position: relative;
     top: -22px;
@@ -5816,7 +5817,7 @@ img {
       margin-bottom: 30px; }
       .section.reviews .reviews-aside .reviews-aside-steps li {
         margin-top: 10px;
-        min-height: 65px;
+        min-height: 65px !important;
         width: 160px;
         display: flex;
         flex-direction: column;
@@ -6154,7 +6155,7 @@ img {
   box-shadow: 3px 3px 10px rgba(23, 25, 25, 0.2);
   transform: translatey(0%);
   background: url(./../img/up.png);
-  background-size: 50% 50%;
+  background-size: 35% 35%;
   background-repeat: no-repeat;
   background-position: center;
   display: none; }
@@ -6162,12 +6163,6 @@ img {
     transform: translatey(-10%); }
 
 @media (max-width: 576px) {
-  .section.showcase .showcase-title {
-    font-size: 50px; }
-    .section.showcase .showcase-title span {
-      font-size: 30px !important;
-      left: -1px;
-      top: -25px; }
   .section.reviews .buying-info-links a {
     font-size: 18px; }
   .section.prefooter .more-info-links a {
@@ -6233,12 +6228,20 @@ img {
         max-width: 20px !important; } }
 
 @media (max-width: 992px) {
-  .section.showcase .showcase-titles-container {
-    position: static;
+  .conclusive-title {
+    margin-bottom: 0 !important; }
+  .reviews-aside {
+    text-align: center !important;
+    margin-bottom: 20px; }
+    .reviews-aside br {
+      display: none; }
+    .reviews-aside .reviews-aside-steps {
+      list-style-type: decimal; }
+      .reviews-aside .reviews-aside-steps li {
+        background-image: none;
+        min-height: auto; }
+  .reviews-main {
     margin-top: 30px; }
-  .section.showcase .showcase-descriptions-container {
-    position: static;
-    text-align: center; }
   .section.prefooter .social-media-section .happy-to-connect {
     font-size: 18px;
     line-height: 30px; }
@@ -6246,3 +6249,11 @@ img {
     padding-right: 30px !important; }
     .section.prefooter .social-links a img {
       max-width: 40px !important; } }
+
+@media (max-width: 1200px) {
+  .section.showcase .showcase-titles-container {
+    position: static;
+    margin-top: 30px; }
+  .section.showcase .showcase-descriptions-container {
+    position: static;
+    text-align: center; } }
