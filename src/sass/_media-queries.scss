@@ -63,6 +63,9 @@
     }
 
     .section.about {
+        background: url(./../img/about.min.png);
+        background-size: cover;
+
         .about-title {
             padding: 18px 57px !important;
             letter-spacing: 1px !important;
