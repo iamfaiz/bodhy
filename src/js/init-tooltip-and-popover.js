@@ -14,7 +14,7 @@ $(function () {
         title: 'WhatsApp',
         html: true,
         content: function () {
-            return '<p>Add the number to the Contacts on your phone and send us a message via app.</p> <p class="lead text-center">+123456789</p>';
+            return '<p>Add the number to the Contacts on your phone and send us a message via app.</p> <p class="lead text-center">+919108675686</p>';
         },
         placement: 'top'
     });
